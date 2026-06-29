@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="X-UA-Compatible" content="EDGE">
+
+    <title>Our Team – Meet the Editorial Staff of Investment Banking</title>
+
+    <meta name="title" content="Our Team – Meet the Editorial Staff of Investment Banking">
+    <meta name="author" content="Investment Banking Editorial Team">
+    <meta name="description"
+        content="Meet the dedicated journalists, analysts, and editors behind Investment Banking. Our team delivers accurate financial news, market insights, and in-depth economic reporting from across the United States.">
+    <link rel="canonical" href="https://www.investment-banking.org/our-team.html">
+
+    <meta property="og:title" content="Our Team – Meet the Editorial Staff of Investment Banking">
+    <meta property="og:description"
+        content="Meet the dedicated journalists, analysts, and editors behind Investment Banking. Our team delivers accurate financial news, market insights, and in-depth economic reporting from across the United States.">
+    <meta property="og:url" content="https://www.investment-banking.org/our-team.html">
+    <meta property="og:image" content="https://www.investment-banking.org/uploads/our-team-banner.webp">
+    <meta property="og:site_name" content="investmentbanking">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_US">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Our Team – Meet the Editorial Staff of Investment Banking">
+    <meta name="twitter:description"
+        content="Meet the dedicated journalists, analysts, and editors behind Investment Banking. Our team delivers accurate financial news, market insights, and in-depth economic reporting from across the United States.">
+    <meta name="twitter:url" content="https://www.investment-banking.org/our-team.html">
+    <meta name="twitter:image" content="https://www.investment-banking.org/uploads/our-team-banner.webp">
+    <meta name="twitter:site" content="@investmentbanking">
+    <meta name="twitter:creator" content="@investmentbanking">
+
+    <link rel="icon" type="image/svg+xml" href="https://www.investment-banking.org/assets/img/fav-icon.svg">
+
+    <!-- Existing site styles -->
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./responsive.css">
+    <link rel="stylesheet" href="./cateagory.css">
+    <link rel="stylesheet" href="./about.css">
+
+    <style>
+        /* Additional styles for the Our Team page */
+        .team-grid-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .team-card {
+            background: #fff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 25px 20px;
+            text-align: center;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .team-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+
+        .team-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+            border: 3px solid #f0f0f0;
+        }
+
+        .team-name {
+            font-size: 22px;
+            font-weight: 700;
+            margin: 0 0 5px;
+            color: #000;
+        }
+
+        .team-title {
+            font-size: 14px;
+            font-weight: 600;
+            color: #0066cc;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 15px;
+        }
+
+        .team-bio {
+            font-size: 15px;
+            line-height: 1.5;
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        .team-social {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 10px;
+        }
+
+        .team-social a {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            background: #f5f5f5;
+            transition: background 0.2s ease;
+        }
+
+        .team-social a:hover {
+            background: #e0e0e0;
+        }
+
+        .team-social img {
+            width: 16px;
+            height: 16px;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .team-grid {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+            .team-card {
+                padding: 20px;
+            }
+            .team-img {
+                width: 120px;
+                height: 120px;
+            }
+            .team-name {
+                font-size: 20px;
+            }
+        }
+
+        /* Hero section styling (matching Mirror Standard) */
+        .team-hero {
+            text-align: center;
+            padding: 40px 20px;
+            background: #f8f9fa;
+            margin-bottom: 20px;
+        }
+        .team-hero h1 {
+            font-size: 42px;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+        .team-hero p {
+            font-size: 18px;
+            max-width: 700px;
+            margin: 0 auto;
+            color: #555;
+            line-height: 1.5;
+        }
+        @media (max-width: 768px) {
+            .team-hero h1 {
+                font-size: 32px;
+            }
+            .team-hero p {
+                font-size: 16px;
+            }
+        }
+    </style>
+
+    <!-- Schema.org markup for Our Team page -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "AboutPage",
+      "@id": "https://www.investment-banking.org/our-team.php#webpage",
+      "url": "https://www.investment-banking.org/our-team.php",
+      "name": "Our Team – Investment Banking Editorial Staff",
+      "description": "Meet the dedicated journalists, analysts, and editors behind Investment Banking.",
+      "publisher": {
+        "@id": "https://www.investment-banking.org/#organization"
+      }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "name": "Investment Banking Editorial Team",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "Person",
+            "name": "Michael Grant",
+            "jobTitle": "U.S Politics & National News Correspondent",
+            "image": "https://www.investment-banking.org/images/michael-grant.webp",
+            "url": "https://www.investment-banking.org/authors/michael-grant"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "Person",
+            "name": "Jordan M. Ellis",
+            "jobTitle": "Markets & Economics Analyst",
+            "image": "https://www.investment-banking.org/images/jordan-m-ellis.webp",
+            "url": "https://www.investment-banking.org/authors/jordan-m-ellis"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@type": "Person",
+            "name": "Natalie Greene",
+            "jobTitle": "Business & Corporate Affairs Reporter",
+            "image": "https://www.investment-banking.org/images/natalie-greene.webp",
+            "url": "https://www.investment-banking.org/authors/natalie-greene"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "item": {
+            "@type": "Person",
+            "name": "Evan J. Mercer",
+            "jobTitle": "Banking & Financial Regulations Specialist",
+            "image": "https://www.investment-banking.org/images/evan-j-mercer.webp",
+            "url": "https://www.investment-banking.org/authors/evan-j-mercer"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "item": {
+            "@type": "Person",
+            "name": "Ethan R. Calloway",
+            "jobTitle": "Investigations & Federal Crime Reporter",
+            "image": "https://www.investment-banking.org/images/ethan-r-calloway.webp",
+            "url": "https://www.investment-banking.org/authors/ethan-r-calloway"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "item": {
+            "@type": "Person",
+            "name": "Marcus D. Reynolds",
+            "jobTitle": "ESG & Sustainability Correspondent",
+            "image": "https://www.investment-banking.org/images/marcus-d-reynolds.webp",
+            "url": "https://www.investment-banking.org/authors/marcus-d-reynolds"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "item": {
+            "@type": "Person",
+            "name": "Samantha R. Caldwell",
+            "jobTitle": "FinTech & Digital Banking Analyst",
+            "image": "https://www.investment-banking.org/images/samantha-r-caldwell.webp",
+            "url": "https://www.investment-banking.org/authors/samantha-r-caldwell"
+          }
+        }
+      ]
+    }
+    </script>
+</head>
+
+<body>
+    <!-- Header -->
+    <!-- navbar section -->
+    <div class="navbar-section">
+        <div class="nav-option-section">
+            <img src="images/menu.webp" class="menu" alt="menu" width="12" height="12">
+            <!--<img src="images/sun.webp" class="theme" alt="sun">
+            <img src="images/moon.webp" class="theme b" alt="moon">-->
+        </div>
+        <a href="https://www.investment-banking.org/" title="Investment Banking Home"><img src="https://www.investment-banking.org/uploads/logo-header.svg" alt="Investment Banking" width="335" height="50"></a>
+        <!--<p class="logo"><a href="index.html">INVESTMENT BANKING</a></p>-->
+        <p class="date"><span></span></p>
+    </div>
+
+    <!-- Hidden search bar -->
+    <div class="search-bar">
+        <input type="text" placeholder="Type & hit enter">
+        <button><img src="images/search-interface-symbol.webp" alt="search"></button>
+    </div>
+
+    <!-- Sidebar -->
+    <div id="sidebar" class="sidebar">
+        <ul>
+            <li><a href="https://www.investment-banking.org/" title="Home">Home</a></li>
+            <li><a href="us/us.html" title="U.S">U.S</a></li>
+            <li><a href="markets/markets.html" title="Markets">Markets</a></li>
+            <li><a href="business/business.html" title="Business">Business</a></li>
+            <li><a href="banking/banking.html" title="Banking">Banking</a></li>
+            <li><a href="investigations/investigations.html" title="Investigations">Investigations</a></li>
+            <li><a href="esg/esg.html" title="ESG">ESG</a></li>
+            <li><a href="fintech/fintech.html" title="FinTech">FinTech</a></li>
+            <li><a href="opinion/opinion.html" title="Opinion">Opinion</a></li>
+
+
+            <div class="socials">
+                <i><a href="https://x.com/__investment___" title="Twitter"><img src="images/twitter.webp" class="footer-social-icon" alt="Twitter"></a></i>
+                <i><a href="https://www.instagram.com/investment_.banking/" title="Instagram"><img src="images/instagram.webp" class="footer-social-icon" alt="Instagram"></a></i>
+                <i><a href="https://substack.com/@investmentbanking07?" title="Substack"><img src="images/substack.webp" class="footer-social-icon" alt="Substack"></a></i>
+                <i><a href="https://medium.com/@investmentbanking" title="Medium"><img src="images/medium.webp" class="footer-social-icon" alt="Medium"></a></i>
+            </div>
+        </ul>
+    </div>
+
+
+
+    <!-- Overlay (click outside area) -->
+    <div class="overlay"></div>
+
+    <!-- cateagory-section -->
+    <div class="cateagory-section">
+        <div class="category-grid-section">
+            <p class="category"><a href="https://www.investment-banking.org/" title="Home">Home</a></p>
+            
+            <p class="category"><a href="us/us.html" title="U.S">U.S</a></p>
+            <p class="category"><a href="markets/markets.html" title="Markets">Markets</a></p>
+            <p class="category"><a href="business/business.html" title="Business">Business</a></p>
+            <p class="category"><a href="banking/banking.html" title="Banking">Banking</a></p>
+            <p class="category"><a href="investigations/investigations.html" title="Investigations">Investigations</a></p>
+            <p class="category"><a href="esg/esg.html" title="ESG">ESG</a></p>
+            <p class="category"><a href="fintech/fintech.html" title="FinTech">FinTech</a></p>
+            <p class="category"><a href="opinion/opinion.html" title="Opinion">Opinion</a></p>
+        </div>
+    </div>
+
+
+    <!-- Hero Section -->
+    <div class="team-hero">
+        <h1>Our Team</h1>
+        <p>At Investment Banking, our journalists, editors, and analysts work together across the globe to deliver fact-based, independent, and insightful financial journalism.</p>
+    </div>
+
+    <!-- Team Grid Section -->
+    <div class="team-grid-container">
+        <div class="team-grid">
+            <!-- Michael Grant -->
+            <div class="team-card">
+                <img src="./images/michael-grant.webp" alt="Michael Grant" class="team-img" loading="lazy">
+                <div class="team-name"><a href="authors/michael-grant.html" title="Michael Grant">Michael Grant</a></div>
+                <div class="team-title">U.S Politics & National News</div>
+                <div class="team-bio">Michael Grant is a US journalist who writes for major newspapers about changes in US politics and the economy. He tells his readers the truth about what's going on.</div>
+                <div class="team-social">
+                    <a href="https://x.com/_michael_grant_" title="Twitter" target="_blank" rel="noopener noreferrer"><img src="./images/twitter.webp" alt="Twitter"></a>
+                    <a href="https://www.instagram.com/micha_el_grant/" title="Instagram" target="_blank" rel="noopener noreferrer"><img src="./images/instagram.webp" alt="Instagram"></a>
+                    <a href="https://substack.com/@michaelgrant07?" title="Substack" target="_blank" rel="noopener noreferrer"><img src="./images/substack.webp" alt="Substack"></a>
+                    <a href="https://medium.com/@michaelgrant_" title="Medium" target="_blank" rel="noopener noreferrer"><img src="./images/medium.webp" alt="Medium"></a>
+                </div>
+            </div>
+
+            <!-- Jordan M. Ellis -->
+            <div class="team-card">
+                <img src="./images/jordan-m-ellis.webp" alt="Jordan M. Ellis" class="team-img" loading="lazy">
+                <div class="team-name"><a href="authors/jordan-m-ellis.html" title="Jordan M. Ellis">Jordan M. Ellis</a></div>
+                <div class="team-title">Markets & Economics</div>
+                <div class="team-bio">Jordan M. Ellis is an American journalist and author who writes about the people and numbers in the economy, the stock market, and other areas.</div>
+                <div class="team-social">
+                    <a href="https://x.com/jordan_m_ellis_" title="Twitter" target="_blank" rel="noopener noreferrer"><img src="./images/twitter.webp" alt="Twitter"></a>
+                    <a href="https://www.instagram.com/jordan_m_ellis/" title="Instagram" target="_blank" rel="noopener noreferrer"><img src="./images/instagram.webp" alt="Instagram"></a>
+                    <a href="https://substack.com/@jordanmellis07?" title="Substack" target="_blank" rel="noopener noreferrer"><img src="./images/substack.webp" alt="Substack"></a>
+                    <a href="https://medium.com/@jordanmellis" title="Medium" target="_blank" rel="noopener noreferrer"><img src="./images/medium.webp" alt="Medium"></a>
+                </div>
+            </div>
+
+            <!-- Natalie Greene -->
+            <div class="team-card">
+                <img src="./images/natalie-greene.webp" alt="Natalie Greene" class="team-img" loading="lazy">
+                <div class="team-name"><a href="authors/natalie-greene.html" title="Natalie Greene">Natalie Greene</a></div>
+                <div class="team-title">Business & Corporate Affairs</div>
+                <div class="team-bio">Natalie Greene is a business journalist in the U.S. who is known for her short, factual writing and her deep understanding of how businesses, markets, and people work together.</div>
+                <div class="team-social">
+                    <a href="https://x.com/natalie_green_e" title="Twitter" target="_blank" rel="noopener noreferrer"><img src="./images/twitter.webp" alt="Twitter"></a>
+                    <a href="https://www.instagram.com/nata.liegreene/" title="Instagram" target="_blank" rel="noopener noreferrer"><img src="./images/instagram.webp" alt="Instagram"></a>
+                    <a href="https://substack.com/@nataliegreene07?" title="Substack" target="_blank" rel="noopener noreferrer"><img src="./images/substack.webp" alt="Substack"></a>
+                    <a href="https://medium.com/@nataliegreene_" title="Medium" target="_blank" rel="noopener noreferrer"><img src="./images/medium.webp" alt="Medium"></a>
+                </div>
+            </div>
+
+            <!-- Evan J. Mercer -->
+            <div class="team-card">
+                <img src="./images/evan-j-mercer.webp" alt="Evan J. Mercer" class="team-img" loading="lazy">
+                <div class="team-name"><a href="authors/evan-j-mercer.html" title="Evan J. Mercer">Evan J. Mercer</a></div>
+                <div class="team-title">Banking & Financial Regulations</div>
+                <div class="team-bio">In the U.S., Evan J. Mercer is a financial journalist who writes about banking, rules, and changes in the institutional market. He has a degree in economics and has worked as a reporter for about ten years.</div>
+                <div class="team-social">
+                    <a href="https://x.com/evan_j_mercer" title="Twitter" target="_blank" rel="noopener noreferrer"><img src="./images/twitter.webp" alt="Twitter"></a>
+                    <a href="https://www.instagram.com/evanjmercer/" title="Instagram" target="_blank" rel="noopener noreferrer"><img src="./images/instagram.webp" alt="Instagram"></a>
+                    <a href="https://substack.com/@evanjmercer?" title="Substack" target="_blank" rel="noopener noreferrer"><img src="./images/substack.webp" alt="Substack"></a>
+                    <a href="https://medium.com/@evanjmercer" title="Medium" target="_blank" rel="noopener noreferrer"><img src="./images/medium.webp" alt="Medium"></a>
+                </div>
+            </div>
+
+            <!-- Ethan R. Calloway -->
+            <div class="team-card">
+                <img src="./images/ethan-r-calloway.webp" alt="Ethan R. Calloway" class="team-img" loading="lazy">
+                <div class="team-name"><a href="authors/ethan-r-calloway.html" title="Ethan R. Calloway">Ethan R. Calloway</a></div>
+                <div class="team-title">Investigations & Federal Crime</div>
+                <div class="team-bio">Ethan R. Calloway is an investigative journalist who lives in Washington, D.C. He is known for doing a lot of research on topics like holding the government accountable, corporate wrongdoing, and changing the criminal justice system in the United States.</div>
+                <div class="team-social">
+                    <a href="https://x.com/e_thancalloway" title="Twitter" target="_blank" rel="noopener noreferrer"><img src="./images/twitter.webp" alt="Twitter"></a>
+                    <a href="https://www.instagram.com/ethanrcalloway/" title="Instagram" target="_blank" rel="noopener noreferrer"><img src="./images/instagram.webp" alt="Instagram"></a>
+                    <a href="https://substack.com/@ethancalloway?" title="Substack" target="_blank" rel="noopener noreferrer"><img src="./images/substack.webp" alt="Substack"></a>
+                    <a href="https://medium.com/@ethanrcalloway" title="Medium" target="_blank" rel="noopener noreferrer"><img src="./images/medium.webp" alt="Medium"></a>
+                </div>
+            </div>
+
+            <!-- Marcus D. Reynolds -->
+            <div class="team-card">
+                <img src="./images/marcus-d-reynolds.webp" alt="Marcus D. Reynolds" class="team-img" loading="lazy">
+                <div class="team-name"><a href="authors/marcus-d-reynolds.html" title="Marcus D. Reynolds">Marcus D. Reynolds</a></div>
+                <div class="team-title">ESG & Sustainability</div>
+                <div class="team-bio">Marcus D. Reynolds is an American journalist who writes for U.S. News about Environmental, Social, and Governance (ESG) issues.</div>
+                <div class="team-social">
+                    <a href="https://x.com/_marcusreynolds" title="Twitter" target="_blank" rel="noopener noreferrer"><img src="./images/twitter.webp" alt="Twitter"></a>
+                    <a href="https://www.instagram.com/marcus_d_reynolds/" title="Instagram" target="_blank" rel="noopener noreferrer"><img src="./images/instagram.webp" alt="Instagram"></a>
+                    <a href="https://substack.com/@marcusdreynolds?" title="Substack" target="_blank" rel="noopener noreferrer"><img src="./images/substack.webp" alt="Substack"></a>
+                    <a href="https://medium.com/@marcusdreynolds" title="Medium" target="_blank" rel="noopener noreferrer"><img src="./images/medium.webp" alt="Medium"></a>
+                </div>
+            </div>
+
+            <!-- Samantha R. Caldwell -->
+            <div class="team-card">
+                <img src="./images/samantha-r-caldwell.webp" alt="Samantha R. Caldwell" class="team-img" loading="lazy">
+                <div class="team-name"><a href="authors/samantha-r-caldwell.html" title="Samantha R. Caldwell">Samantha R. Caldwell</a></div>
+                <div class="team-title">FinTech & Digital Banking</div>
+                <div class="team-bio">Samantha R. Caldwell is a financial journalist in the U.S. who writes about new payment technologies, digital banking, and innovations in fintech.</div>
+                <div class="team-social">
+                    <a href="https://x.com/samantha_r_c" title="Twitter" target="_blank" rel="noopener noreferrer"><img src="./images/twitter.webp" alt="Twitter"></a>
+                    <a href="https://www.instagram.com/samantharcaldwell/" title="Instagram" target="_blank" rel="noopener noreferrer"><img src="./images/instagram.webp" alt="Instagram"></a>
+                    <a href="https://substack.com/@samantharcaldwell?" title="Substack" target="_blank" rel="noopener noreferrer"><img src="./images/substack.webp" alt="Substack"></a>
+                    <a href="https://medium.com/@samantharcaldwell" title="Medium" target="_blank" rel="noopener noreferrer"><img src="./images/medium.webp" alt="Medium"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+    <div class="footer-top">
+        <div class="footer-top-section">
+            <div class="footer-top-left"></div>
+            <div class="footer-top-center">
+                <a href="about.html" title="About">About</a>
+                <a href="privacy-policy.html" title="Privacy Policy">Privacy Policy</a>
+                <a href="our-team.html" title="Our Team">Our Team</a>
+                <a href="contact.html" title="Contact Us">Contact Us</a>
+                <a href="editorial-policy.html" title="Editorial Policy">Editorial Policy</a>
+                <a href="corrections-policy.html" title="Corrections Policy">Corrections Policy</a>
+                <a href="source-methodology.html" title="Source Methodology">Source Methodology</a>
+                <a href="ownership-and-funding.html" title="Ownership and Funding">Ownership & Funding</a>
+                <a href="advertising-and-sponsored-content-policy.html" title="Advertising Policy">Advertising Policy</a>
+                <a href="right-of-reply-policy.html" title="Right of Reply Policy">Right of Reply</a>
+                <a href="legal.html" title="Legal">Legal</a>
+                <a href="terms-and-conditions.html" title="Terms and Conditions">Terms</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-middle">
+        <a href="https://www.investment-banking.org/" title="Investment Banking Home">
+            <img src="https://www.investment-banking.org/uploads/logo-footer.svg" alt="Investment Banking" width="320" height="50">
+        </a>
+        <p>©<span id="currentYear"></span> - All rights reserved.</p>
+    </div>
+
+    <div class="footer-bottom">
+        <a href="https://x.com/__investment___" title="Twitter"><img src="images/twitter.webp" class="footer-social-icon" alt="Twitter"></a>
+        <a href="https://www.instagram.com/investment_.banking/" title="Instagram"><img src="images/instagram.webp" class="footer-social-icon" alt="Instagram"></a>
+        <a href="https://substack.com/@investmentbanking07?" title="Substack"><img src="images/substack.webp" class="footer-social-icon" alt="Substack"></a>
+        <a href="https://medium.com/@investmentbanking" title="Medium"><img src="images/medium.webp" class="footer-social-icon" alt="Medium"></a>
+    </div>
+</footer>
+
+<style>
+/* Force horizontal swipeable scrolling for footer links on mobile */
+@media (max-width: 768px) {
+    .footer-top-center {
+        display: flex !important;
+        flex-wrap: nowrap !important;
+        overflow-x: auto !important;
+        overflow-y: hidden !important;
+        -webkit-overflow-scrolling: touch !important;
+        scroll-behavior: smooth !important;
+        gap: 20px;
+        padding-bottom: 10px;
+        width: 100%;
+        background: transparent !important;
+    }
+    .footer-top-center a {
+        display: inline-block;
+        flex-shrink: 0;
+        white-space: nowrap;
+        font-size: 14px;
+    }
+    /* Optional: adds a tiny spacer at the end to allow full scroll */
+    .footer-top-center::after {
+        content: '';
+        flex-shrink: 0;
+        width: 10px;
+        height: 1px;
+        visibility: hidden;
+    }
+}
+</style>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const currentYear = new Date().getFullYear();
+        const yearSpan = document.getElementById('currentYear');
+        if (yearSpan) yearSpan.textContent = currentYear;
+    });
+</script>
+<script src="script.js"></script>
+</body>
+</html>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Update copyright year
+            const yearSpan = document.getElementById('currentYear');
+            if (yearSpan) yearSpan.textContent = new Date().getFullYear();
+        });
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>

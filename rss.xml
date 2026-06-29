@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>U.S. Financial News, Markets, Banking and Business — Investment Banking</title>
+    <link>https://www.investment-banking.org</link>
+    <description>Latest U.S. market news, banking updates, business insights, investigations, and real-time analysis to keep you informed on key financial developments</description>
+    <language>en-US</language>
+    <copyright>© Investment Banking 2026. All rights reserved</copyright>
+    <lastBuildDate>Fri, 12 Jun 2026 09:30:00 GMT</lastBuildDate>
+    <generator>Static HTML RSS Feed</generator>
+    <managingEditor>admin@investment-banking.org (Investment Banking Editor)</managingEditor>
+    <webMaster>admin@investment-banking.org (Investment Banking Webmaster)</webMaster>
+    <atom:link href="https://www.investment-banking.org/rss.xml" rel="self" type="application/rss+xml"/>
+
+    <item>
+      <title>SpaceX $75B IPO Launch Boosts Tech Stocks</title>
+      <link>https://www.investment-banking.org/markets/spacex-75b-ipo-tech-market-rally</link>
+      <guid isPermaLink="true">https://www.investment-banking.org/markets/spacex-75b-ipo-tech-market-rally</guid>
+      <pubDate>Fri, 12 Jun 2026 09:30:00 GMT</pubDate>
+      <description><![CDATA[
+        SpaceX raises $75B in historic IPO at $135/share, sparking tech market rally and investor confidence in commercial space and Starlink growth.<br><br>
+        <strong>Key points:</strong><br>
+        • SpaceX priced 555.56 million shares at $135 each, marking the largest IPO in U.S. history and valuing the company at about $1.77 trillion.<br>
+        • Shares are set to begin trading on the Nasdaq under the ticker SPCX, with strong demand from both institutional and retail investors.<br>
+        • The IPO has lifted broader tech sentiment, with major indexes and tech ETFs rallying on optimism about future growth in space, satellite broadband, and AI innovations.<br>
+        • Analysts caution that high valuation multiples and long‑term profitability depend on Starlink scaling and future ventures, but market exuberance is driving near‑term momentum.<br><br>
+        Read the full article: <a href="https://www.investment-banking.org/markets/spacex-75b-ipo-tech-market-rally">SpaceX $75B IPO Launch Boosts Tech Stocks</a>
+      ]]></description>
+      <category>Markets</category>
+    </item>
+  </channel>
+</rss>

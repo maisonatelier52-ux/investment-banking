@@ -1,0 +1,40 @@
+.profile-card {
+    width: 100%;
+    max-width: 850px;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    font-family: Arial, sans-serif;
+    margin: 30px auto;
+}
+
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile-content h2 {
+    font-size: 32px;
+    margin: 0 0 10px 0;
+    font-weight: 700;
+}
+
+.profile-content p {
+    line-height: 1.6;
+    font-size: 17px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.social-icons a {
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 22px;
+    color: #000;
+}
+
+.social-icons a:hover {
+    opacity: 0.6;
+}
