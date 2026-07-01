@@ -44,12 +44,6 @@
     <lastmod>2026-03-25</lastmod>
   </url>  
   <url>
-    <loc>https://www.investment-banking.org/us/watching-tariff-policy-and-trade-tensions</loc>
-    <priority>0.7</priority>
-    <changefreq>weekly</changefreq>
-    <lastmod>2025-11-05</lastmod>
-  </url>
-  <url>
     <loc>https://www.investment-banking.org/us/dick-cheney-who-was-vice-president-of-the-united-states-dies-at-84</loc>
     <priority>0.7</priority>
     <changefreq>weekly</changefreq>
@@ -115,6 +109,12 @@
     <priority>0.7</priority>
     <changefreq>weekly</changefreq>
     <lastmod>2026-03-13</lastmod>
+  </url>
+  <url>
+    <loc>https://www.investment-banking.org/markets/spacex-75b-ipo-tech-market-rally</loc>
+    <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
+    <lastmod>2026-06-12</lastmod>
   </url>
   <url>
     <loc>https://www.investment-banking.org/markets/us-stock-futures-rise-semiconductor-stocks-rebound-ai-optimism</loc>
