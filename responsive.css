@@ -3,7 +3,7 @@
             padding: 0px 10px;
         }
         .bottom-mid-section {
-            gap: 0;
+            gap: 14px;
         }
         /* navbar section */
         .navbar-section {
@@ -125,13 +125,14 @@
             height: 400px;
         }
 
-        .bottom-mid-section-l {
-            width: 80%;
-        }
+.bottom-mid-section-l,
+.bottom-mid-section.has-image .bottom-mid-section-l {
+    flex: 1 1 auto;
+}
 
-        .bottom-mid-section-r {
-            width: 20%;
-        }
+.bottom-mid-section-r {
+    flex: 0 0 30%;
+}
  .main-head.b {
             font-size: 16px;
         }

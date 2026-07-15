@@ -1308,19 +1308,44 @@ body.dark-mode .mini-title-bl.b {
 
 /* -------------------------
    MOBILE NAVBAR FIX
-   Prevent logo & date overlap
+   Hamburger + logo on same row, logo stays centered
 ---------------------------*/
 @media (max-width: 768px) {
 
     .navbar-section {
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: 48px 1fr 48px;
         align-items: center;
+        width: 100%;
+        margin: 0;
         padding: 20px 0;
-        gap: 10px;
-        position: relative; /* required */
+        row-gap: 10px;
+        position: relative;
     }
 
-    /* Make logo normal flow instead of absolute */
+    /* Hamburger — pinned to the left of its column */
+    .nav-option-section {
+        grid-column: 1;
+        justify-self: start;
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 12px;
+        padding-right: 0;
+    }
+
+    .menu {
+        margin: 0;
+    }
+
+    /* Logo link — sits in the middle column, same row as hamburger */
+    .navbar-section > a {
+        grid-column: 2;
+        justify-self: center;
+        position: static;
+        transform: none;
+        margin: 0;
+    }
+
     .logo {
         position: static;
         transform: none;
@@ -1328,31 +1353,13 @@ body.dark-mode .mini-title-bl.b {
         text-align: center;
     }
 
-    /* FIX for your centered <a> logo */
-    .navbar-section > a {
-        position: static;
-        transform: none;
-    }
-
-    /* Move date under the logo */
+    /* Date — its own full-width row below, centered */
     .date {
+        grid-column: 1 / -1;
         display: block;
+        width: 100%;
         text-align: center;
         margin-top: -5px;
-    }
-
-/* Menu row — mobile */
-.nav-option-section {
-    width: 100%;
-    display: flex;
-    justify-content: flex-start; /* 🔥 key change */
-    padding-left: 12px;          /* closer to left edge */
-    padding-right: 0;
-}
-
-
-    .menu {
-        margin: 0;
     }
 
     /* Center header & footer logos on mobile */
