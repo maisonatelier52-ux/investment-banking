@@ -1,0 +1,27 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "version": 2,
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/about-us",
+      "destination": "/about",
+      "permanent": true
+    }
+  ],
+  "routes": [
+    {
+      "src": "/index",
+      "dest": "/"
+    },
+    {
+      "handle": "filesystem"
+    },
+    {
+      "src": "/(.*)",
+      "status": 404,
+      "dest": "/404.html"
+    }
+  ]
+}

@@ -1,0 +1,518 @@
+:root {
+    --about-navy: #0b345c;
+    --about-gold: #c59a43;
+    --about-ink: #15191e;
+    --about-muted: #59636f;
+    --about-paper: #ffffff;
+    --about-wash: #f4f5f6;
+    --about-rule: #d9dde1;
+    --about-headline: "Avenir Next", "Helvetica Neue", Arial, sans-serif;
+    --about-reading: Georgia, "Times New Roman", serif;
+}
+
+.skip-link {
+    position: fixed;
+    z-index: 10000;
+    top: 12px;
+    left: 12px;
+    padding: 10px 14px;
+    color: #fff;
+    background: var(--about-navy);
+    font-family: var(--about-headline);
+    font-size: 14px;
+    font-weight: 700;
+    transform: translateY(-150%);
+}
+
+.skip-link:focus {
+    transform: translateY(0);
+}
+
+.about-page,
+.about-page * {
+    box-sizing: border-box;
+}
+
+.about-page {
+    width: min(1540px, 100%);
+    margin: 0 auto;
+    padding: 0;
+    color: var(--about-ink);
+    font-family: var(--about-headline);
+}
+
+.about-split {
+    display: grid;
+    grid-template-columns: minmax(0, 68%) minmax(320px, 32%);
+    align-items: stretch;
+}
+
+.about-content-column {
+    min-width: 0;
+    padding: 0 clamp(36px, 5vw, 76px) 88px;
+}
+
+.about-brand-column {
+    min-width: 0;
+    padding: clamp(56px, 8vw, 110px) clamp(32px, 4vw, 64px);
+    border-left: 1px solid #d6d2c9;
+    background:
+        linear-gradient(180deg, rgba(197, 154, 67, .09), transparent 28%),
+        #f5f3ee;
+}
+
+.about-brand-column a {
+    position: sticky;
+    top: 48px;
+    display: flex;
+    min-height: calc(100vh - 96px);
+    align-items: center;
+    justify-content: center;
+}
+
+.about-brand-column img {
+    display: block;
+    width: min(100%, 390px);
+    height: auto;
+}
+
+.about-page a:focus-visible {
+    outline: 3px solid var(--about-gold);
+    outline-offset: 4px;
+}
+
+.about-breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding: 24px 0 18px;
+    color: #6c7580;
+    font-size: 12px;
+    font-weight: 650;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+}
+
+.about-breadcrumb a {
+    color: var(--about-navy);
+    text-decoration: none;
+}
+
+.about-page-hero {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 44px;
+    align-items: end;
+    padding: clamp(56px, 8vw, 104px) 0 clamp(56px, 7vw, 86px);
+    border-top: 4px solid var(--about-navy);
+    border-bottom: 1px solid var(--about-ink);
+}
+
+.about-eyebrow {
+    margin: 0 0 17px;
+    color: var(--about-navy);
+    font-size: 11px;
+    font-weight: 750;
+    letter-spacing: .15em;
+    text-transform: uppercase;
+}
+
+.about-page h1,
+.about-page h2,
+.about-page h3 {
+    font-family: var(--about-headline);
+    text-wrap: balance;
+}
+
+.about-page h1 {
+    max-width: 13ch;
+    margin: 0;
+    color: var(--about-ink);
+    font-size: clamp(46px, 6.1vw, 78px);
+    font-weight: 750;
+    letter-spacing: -.045em;
+    line-height: .99;
+}
+
+.about-deck {
+    max-width: 720px;
+    margin: 30px 0 0;
+    color: #35414c;
+    font-family: var(--about-reading);
+    font-size: clamp(19px, 1.9vw, 23px);
+    line-height: 1.6;
+}
+
+.about-brief {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    gap: 24px;
+    padding: 6px 0 2px 24px;
+    border-left: 3px solid var(--about-gold);
+}
+
+.about-brief-label {
+    margin: 0 0 20px;
+    color: var(--about-muted);
+    font-size: 11px;
+    font-weight: 750;
+    letter-spacing: .13em;
+    text-transform: uppercase;
+}
+
+.about-brief dl,
+.about-brief dd {
+    margin: 0;
+}
+
+.about-brief dl > div {
+    padding: 17px 0;
+    border-top: 1px solid var(--about-rule);
+}
+
+.about-brief dt {
+    margin-bottom: 6px;
+    color: var(--about-navy);
+    font-size: 12px;
+    font-weight: 750;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+}
+
+.about-brief dd {
+    color: #48535e;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.about-mission,
+.about-newsroom {
+    display: grid;
+    grid-template-columns: minmax(250px, .72fr) minmax(0, 1.28fr);
+    gap: clamp(48px, 9vw, 132px);
+    padding: clamp(64px, 8vw, 104px) 0;
+    border-bottom: 1px solid var(--about-rule);
+}
+
+.about-section-label h2,
+.about-principles-heading h2,
+.about-newsroom h2,
+.about-standards h2 {
+    margin: 0;
+    color: var(--about-ink);
+    font-size: clamp(34px, 4vw, 52px);
+    font-weight: 720;
+    letter-spacing: -.035em;
+    line-height: 1.06;
+}
+
+.about-prose {
+    max-width: 720px;
+}
+
+.about-prose p,
+.about-newsroom-copy > p {
+    margin: 0 0 25px;
+    color: #303b46;
+    font-family: var(--about-reading);
+    font-size: clamp(18px, 1.6vw, 20px);
+    line-height: 1.72;
+}
+
+.about-prose p:first-child::first-letter {
+    float: left;
+    margin: .09em .09em 0 0;
+    color: var(--about-navy);
+    font-family: var(--about-headline);
+    font-size: 3.5em;
+    font-weight: 750;
+    line-height: .78;
+}
+
+.about-principles {
+    padding: clamp(64px, 8vw, 96px) 0;
+    border-bottom: 1px solid var(--about-ink);
+}
+
+.about-principles-heading {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    gap: 40px;
+    padding-bottom: 24px;
+    border-bottom: 2px solid var(--about-ink);
+}
+
+.about-principles-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.about-principles-grid article {
+    min-height: 250px;
+    padding: 30px 28px 12px;
+    border-right: 1px solid var(--about-rule);
+}
+
+.about-principles-grid article:first-child {
+    padding-left: 0;
+}
+
+.about-principles-grid article:last-child {
+    padding-right: 0;
+    border-right: 0;
+}
+
+.about-principles-grid article > span {
+    color: var(--about-gold);
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: .12em;
+}
+
+.about-principles-grid h3 {
+    margin: 62px 0 13px;
+    color: var(--about-navy);
+    font-size: 22px;
+    font-weight: 720;
+    letter-spacing: -.025em;
+    line-height: 1.15;
+}
+
+.about-principles-grid p {
+    margin: 0;
+    color: var(--about-muted);
+    font-size: 14px;
+    line-height: 1.62;
+}
+
+.about-newsroom-copy {
+    max-width: 720px;
+}
+
+.about-coverage {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 34px 0 0;
+    padding: 0;
+    list-style: none;
+}
+
+.about-coverage li {
+    padding: 8px 13px;
+    border: 1px solid #c8ced4;
+    border-radius: 999px;
+    color: var(--about-navy);
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.about-standards {
+    display: grid;
+    grid-template-columns: minmax(0, .78fr) minmax(320px, 1.22fr);
+    gap: clamp(48px, 8vw, 108px);
+    margin-top: clamp(64px, 8vw, 96px);
+    padding: clamp(40px, 6vw, 70px);
+    color: #fff;
+    background: var(--about-navy);
+}
+
+.about-standards .about-eyebrow {
+    color: #e3bf6e;
+}
+
+.about-standards h2 {
+    color: #fff;
+}
+
+.about-standards-copy > p:last-child {
+    max-width: 500px;
+    margin: 24px 0 0;
+    color: #d8e0e7;
+    font-family: var(--about-reading);
+    font-size: 17px;
+    line-height: 1.65;
+}
+
+.about-policy-links {
+    border-top: 1px solid rgba(255, 255, 255, .42);
+}
+
+.about-policy-links a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 18px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, .28);
+    color: #fff;
+    font-size: 15px;
+    font-weight: 650;
+    text-decoration: none;
+    transition: color .2s ease, padding-left .2s ease;
+}
+
+.about-policy-links a:hover {
+    padding-left: 5px;
+    color: #f0ce82;
+}
+
+.about-policy-links b {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.about-updated {
+    margin: 22px 0 0;
+    color: #737b84;
+    font-size: 11px;
+    letter-spacing: .04em;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+@media (max-width: 900px) {
+    .about-split {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-brand-column {
+        order: -1;
+        padding: 34px 32px;
+        border-bottom: 1px solid #d6d2c9;
+        border-left: 0;
+    }
+
+    .about-brand-column a {
+        position: static;
+        min-height: 0;
+    }
+
+    .about-brand-column img {
+        width: min(72vw, 340px);
+    }
+
+    .about-content-column {
+        padding-inline: 32px;
+    }
+
+    .about-page-hero,
+    .about-mission,
+    .about-newsroom,
+    .about-standards {
+        grid-template-columns: 1fr;
+    }
+
+    .about-page-hero {
+        gap: 44px;
+    }
+
+    .about-brief {
+        display: grid;
+        grid-template-columns: 170px 1fr;
+        gap: 24px;
+        padding-top: 8px;
+    }
+
+    .about-principles-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .about-principles-grid article:nth-child(2) {
+        border-right: 0;
+    }
+
+    .about-principles-grid article:nth-child(-n + 2) {
+        border-bottom: 1px solid var(--about-rule);
+    }
+}
+
+@media (max-width: 640px) {
+    .about-page {
+        width: 100%;
+        padding-bottom: 56px;
+    }
+
+    .about-content-column {
+        padding: 0 16px 56px;
+    }
+
+    .about-brand-column {
+        padding: 28px 20px;
+    }
+
+    .about-breadcrumb {
+        padding-top: 18px;
+    }
+
+    .about-page-hero {
+        padding: 44px 0 50px;
+    }
+
+    .about-page h1 {
+        font-size: clamp(42px, 13vw, 58px);
+    }
+
+    .about-deck {
+        margin-top: 23px;
+        font-size: 18px;
+    }
+
+    .about-brief {
+        display: block;
+        padding: 4px 0 0 20px;
+    }
+
+    .about-mission,
+    .about-newsroom {
+        gap: 34px;
+        padding: 56px 0;
+    }
+
+    .about-section-label h2,
+    .about-principles-heading h2,
+    .about-newsroom h2,
+    .about-standards h2 {
+        font-size: 34px;
+    }
+
+    .about-principles {
+        padding: 56px 0;
+    }
+
+    .about-principles-heading {
+        display: block;
+    }
+
+    .about-principles-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .about-principles-grid article,
+    .about-principles-grid article:first-child,
+    .about-principles-grid article:last-child {
+        min-height: 0;
+        padding: 26px 0;
+        border-right: 0;
+        border-bottom: 1px solid var(--about-rule);
+    }
+
+    .about-principles-grid article:last-child {
+        border-bottom: 0;
+    }
+
+    .about-principles-grid h3 {
+        margin-top: 24px;
+    }
+
+    .about-standards {
+        gap: 38px;
+        padding: 34px 24px;
+    }
+
+    .about-updated {
+        text-align: left;
+    }
+}

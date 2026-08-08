@@ -1,0 +1,109 @@
+:root {
+    --navy: #0b345c;
+    --gold: #c59a43;
+    --ink: #15191e;
+    --muted: #59636f;
+    --rule: #d9dde1;
+    --headline: "Avenir Next", "Helvetica Neue", Arial, sans-serif;
+    --reading: Georgia, "Times New Roman", serif;
+}
+
+* { box-sizing: border-box; }
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    color: var(--ink);
+    background: #f7f7f5;
+}
+
+.error-page {
+    display: flex;
+    min-height: 100vh;
+    width: min(980px, calc(100% - 48px));
+    margin: 0 auto;
+    padding: clamp(40px, 7vw, 88px) 0;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.error-brand img {
+    display: block;
+    width: min(360px, 72vw);
+    height: auto;
+}
+
+.error-brand:focus-visible,
+.error-actions a:focus-visible {
+    outline: 3px solid var(--gold);
+    outline-offset: 4px;
+}
+
+.error-rule {
+    width: 100%;
+    height: 4px;
+    margin: clamp(42px, 8vw, 84px) 0 34px;
+    background: var(--navy);
+}
+
+.error-code {
+    margin: 0 0 16px;
+    color: var(--gold);
+    font-family: var(--headline);
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: .18em;
+}
+
+h1 {
+    max-width: 760px;
+    margin: 0;
+    font-family: var(--headline);
+    font-size: clamp(46px, 7vw, 78px);
+    font-weight: 750;
+    letter-spacing: -.045em;
+    line-height: 1;
+    text-wrap: balance;
+}
+
+.error-message {
+    max-width: 650px;
+    margin: 28px 0 0;
+    color: var(--muted);
+    font-family: var(--reading);
+    font-size: clamp(18px, 2vw, 21px);
+    line-height: 1.65;
+}
+
+.error-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px 24px;
+    margin-top: 38px;
+}
+
+.error-actions a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+    color: var(--navy);
+    font-family: var(--headline);
+    font-size: 13px;
+    font-weight: 750;
+    text-decoration: none;
+}
+
+.error-actions .error-primary {
+    padding: 0 18px;
+    color: #fff;
+    background: var(--navy);
+}
+
+.error-actions a:not(.error-primary) {
+    border-bottom: 2px solid var(--gold);
+}
+
+@media (max-width: 600px) {
+    .error-page { width: calc(100% - 32px); }
+    .error-actions { align-items: flex-start; flex-direction: column; }
+}

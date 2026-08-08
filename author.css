@@ -1,0 +1,83 @@
+.profile-card {
+    width: 100%;
+    max-width: 850px;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    font-family: Arial, sans-serif;
+    margin: 30px auto;
+}
+
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile-content h2 {
+    font-size: 32px;
+    margin: 0 0 10px 0;
+    font-weight: 700;
+}
+
+.profile-content p {
+    line-height: 1.6;
+    font-size: 17px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.social-icons a {
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 22px;
+    color: #000;
+}
+
+.social-icons a:hover {
+    opacity: 0.6;
+}
+
+.social-icons a img.footer-social-icon {
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+    filter: none; /* override the dark-footer invert(1) brightness(2) — profile card bg is white */
+}
+.author-archive-empty {
+    max-width: 680px;
+    padding: 34px 0 42px;
+}
+
+.author-archive-empty h2 {
+    max-width: 620px;
+    margin: 10px 0 16px;
+    color: #0b345c;
+    font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif;
+    font-size: clamp(27px, 3.4vw, 40px);
+    font-weight: 700;
+    letter-spacing: -.035em;
+    line-height: 1.08;
+}
+
+.author-archive-empty > p:not(.mini-title-bl) {
+    max-width: 600px;
+    margin: 0 0 22px;
+    color: #4f5b67;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 17px;
+    line-height: 1.65;
+}
+
+.author-archive-empty > a {
+    display: inline-flex;
+    gap: 10px;
+    padding-bottom: 4px;
+    border-bottom: 2px solid #c59a43;
+    color: #0b345c;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: .03em;
+    text-transform: uppercase;
+}
