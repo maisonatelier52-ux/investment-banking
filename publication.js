@@ -7,21 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   document.body.classList.add("category-index");
 
-  const primaryNav = document.querySelector(".cateagory-section");
-  if (primaryNav && !document.querySelector(".news-ticker")) {
-    const ticker = document.createElement("div");
-    ticker.className = "news-ticker";
-    ticker.setAttribute("aria-label", "Latest headlines");
-    ticker.innerHTML = `
-      <div class="news-ticker-track">
-        <a href="/markets/markets.html"><strong>MARKETS</strong><span>Follow the forces moving global capital and risk</span></a>
-        <i aria-hidden="true"></i>
-        <a href="/banking/banking.html"><strong>BANKING</strong><span>Institutions, policy and the future of finance</span></a>
-        <i aria-hidden="true"></i>
-        <a href="/fintech/fintech.html"><strong>FINTECH</strong><span>Technology reshaping financial services</span></a>
-      </div>`;
-    primaryNav.insertAdjacentElement("afterend", ticker);
-  }
+  // The header's "latest headlines" ticker is now built site-wide by news-ticker.js.
 
   const categoryRailHost = document.querySelector(".cateagory-grid-section-r");
   if (categoryRailHost) {

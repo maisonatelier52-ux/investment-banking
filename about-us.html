@@ -29,6 +29,7 @@
   <link rel="stylesheet" href="responsive.css">
   <link rel="stylesheet" href="redesign.css">
   <link rel="stylesheet" href="about-us.css">
+  <link rel="stylesheet" href="/publication.css">
 
   <script type="application/ld+json">
   {
@@ -109,16 +110,6 @@
       <p class="category"><a href="opinion/opinion.html">Opinion</a></p>
     </div>
   </nav>
-
-  <div class="news-ticker" aria-label="Latest headlines">
-    <div class="news-ticker-track">
-      <a href="markets/markets.html"><strong>MARKETS</strong><span>Oil volatility and rate expectations keep global investors on alert</span></a>
-      <i aria-hidden="true"></i>
-      <a href="banking/banking.html"><strong>BANKING</strong><span>Leadership changes reshape Wall Street's dealmaking outlook</span></a>
-      <i aria-hidden="true"></i>
-      <a href="fintech/fintech.html"><strong>FINTECH</strong><span>Open banking remains at the center of the sector reset</span></a>
-    </div>
-  </div>
 
   <main id="main-content">
     <section class="about-hero" aria-labelledby="about-title">
@@ -203,5 +194,7 @@
     document.getElementById('currentYear').textContent = new Date().getFullYear();
   </script>
   <script src="script.js"></script>
+  <script src="/publication.js"></script>
+  <script src="/news-ticker.js"></script>
 </body>
 </html>
