@@ -8,6 +8,86 @@
       "source": "/about-us",
       "destination": "/about",
       "permanent": true
+    },
+    {
+      "source": "/banking/banking",
+      "destination": "/banking",
+      "permanent": true
+    },
+    {
+      "source": "/banking/",
+      "destination": "/banking",
+      "permanent": true
+    },
+    {
+      "source": "/business/business",
+      "destination": "/business",
+      "permanent": true
+    },
+    {
+      "source": "/business/",
+      "destination": "/business",
+      "permanent": true
+    },
+    {
+      "source": "/markets/markets",
+      "destination": "/markets",
+      "permanent": true
+    },
+    {
+      "source": "/markets/",
+      "destination": "/markets",
+      "permanent": true
+    },
+    {
+      "source": "/us/us",
+      "destination": "/us",
+      "permanent": true
+    },
+    {
+      "source": "/us/",
+      "destination": "/us",
+      "permanent": true
+    },
+    {
+      "source": "/esg/esg",
+      "destination": "/esg",
+      "permanent": true
+    },
+    {
+      "source": "/esg/",
+      "destination": "/esg",
+      "permanent": true
+    },
+    {
+      "source": "/fintech/fintech",
+      "destination": "/fintech",
+      "permanent": true
+    },
+    {
+      "source": "/fintech/",
+      "destination": "/fintech",
+      "permanent": true
+    },
+    {
+      "source": "/opinion/opinion",
+      "destination": "/opinion",
+      "permanent": true
+    },
+    {
+      "source": "/opinion/",
+      "destination": "/opinion",
+      "permanent": true
+    },
+    {
+      "source": "/investigations/investigations",
+      "destination": "/investigations",
+      "permanent": true
+    },
+    {
+      "source": "/investigations/",
+      "destination": "/investigations",
+      "permanent": true
     }
   ],
   "routes": [

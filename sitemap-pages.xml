@@ -6,57 +6,57 @@
         <loc>https://www.investment-banking.org/</loc>
         <priority>1.0</priority>
         <changefreq>daily</changefreq>
-        <lastmod>2026-08-04</lastmod>
+        <lastmod>2026-09-16</lastmod>
     </url>
 
     <!-- News category indexes -->
     <url>
-        <loc>https://www.investment-banking.org/us/</loc>
+        <loc>https://www.investment-banking.org/us</loc>
         <priority>0.8</priority>
         <changefreq>daily</changefreq>
-        <lastmod>2026-08-07</lastmod>
+        <lastmod>2026-09-16</lastmod>
     </url>
     <url>
-        <loc>https://www.investment-banking.org/markets/</loc>
+        <loc>https://www.investment-banking.org/markets</loc>
         <priority>0.8</priority>
         <changefreq>daily</changefreq>
-        <lastmod>2026-08-07</lastmod>
+        <lastmod>2026-09-16</lastmod>
     </url>
     <url>
-        <loc>https://www.investment-banking.org/business/</loc>
+        <loc>https://www.investment-banking.org/business</loc>
         <priority>0.8</priority>
         <changefreq>daily</changefreq>
-        <lastmod>2026-08-07</lastmod>
+        <lastmod>2026-09-16</lastmod>
     </url>
     <url>
-        <loc>https://www.investment-banking.org/banking/</loc>
+        <loc>https://www.investment-banking.org/banking</loc>
         <priority>0.8</priority>
         <changefreq>daily</changefreq>
-        <lastmod>2026-08-07</lastmod>
+        <lastmod>2026-09-16</lastmod>
     </url>
     <url>
-        <loc>https://www.investment-banking.org/investigations/</loc>
+        <loc>https://www.investment-banking.org/investigations</loc>
         <priority>0.8</priority>
         <changefreq>daily</changefreq>
-        <lastmod>2026-08-07</lastmod>
+        <lastmod>2026-09-16</lastmod>
     </url>
     <url>
-        <loc>https://www.investment-banking.org/esg/</loc>
+        <loc>https://www.investment-banking.org/esg</loc>
         <priority>0.8</priority>
         <changefreq>daily</changefreq>
-        <lastmod>2026-08-07</lastmod>
+        <lastmod>2026-09-16</lastmod>
     </url>
     <url>
-        <loc>https://www.investment-banking.org/fintech/</loc>
+        <loc>https://www.investment-banking.org/fintech</loc>
         <priority>0.8</priority>
         <changefreq>daily</changefreq>
-        <lastmod>2026-08-07</lastmod>
+        <lastmod>2026-09-16</lastmod>
     </url>
     <url>
-        <loc>https://www.investment-banking.org/opinion/</loc>
+        <loc>https://www.investment-banking.org/opinion</loc>
         <priority>0.8</priority>
         <changefreq>daily</changefreq>
-        <lastmod>2026-08-07</lastmod>
+        <lastmod>2026-09-16</lastmod>
     </url>
 
     <!-- Core information pages -->
@@ -64,74 +64,74 @@
         <loc>https://www.investment-banking.org/about</loc>
         <priority>0.7</priority>
         <changefreq>monthly</changefreq>
-        <lastmod>2026-08-07</lastmod>
+        <lastmod>2026-09-16</lastmod>
     </url>
     <url>
-        <loc>https://www.investment-banking.org/our-team.html</loc>
+        <loc>https://www.investment-banking.org/our-team</loc>
         <priority>0.6</priority>
         <changefreq>monthly</changefreq>
-        <lastmod>2026-06-08</lastmod>
+        <lastmod>2026-09-16</lastmod>
     </url>
     <url>
-        <loc>https://www.investment-banking.org/contact.html</loc>
+        <loc>https://www.investment-banking.org/contact</loc>
         <priority>0.6</priority>
         <changefreq>monthly</changefreq>
-        <lastmod>2026-06-08</lastmod>
+        <lastmod>2026-09-16</lastmod>
     </url>
 
     <!-- Policy & legal pages -->
     <url>
-        <loc>https://www.investment-banking.org/privacy-policy.html</loc>
+        <loc>https://www.investment-banking.org/privacy-policy</loc>
         <priority>0.4</priority>
         <changefreq>yearly</changefreq>
-        <lastmod>2026-06-08</lastmod>
+        <lastmod>2026-09-16</lastmod>
     </url>
     <url>
-        <loc>https://www.investment-banking.org/editorial-policy.html</loc>
+        <loc>https://www.investment-banking.org/editorial-policy</loc>
         <priority>0.5</priority>
         <changefreq>yearly</changefreq>
-        <lastmod>2026-06-08</lastmod>
+        <lastmod>2026-09-16</lastmod>
     </url>
     <url>
-        <loc>https://www.investment-banking.org/corrections-policy.html</loc>
+        <loc>https://www.investment-banking.org/corrections-policy</loc>
         <priority>0.5</priority>
         <changefreq>yearly</changefreq>
-        <lastmod>2026-06-08</lastmod>
+        <lastmod>2026-09-16</lastmod>
     </url>
     <url>
-        <loc>https://www.investment-banking.org/source-methodology.html</loc>
+        <loc>https://www.investment-banking.org/source-methodology</loc>
         <priority>0.5</priority>
         <changefreq>yearly</changefreq>
-        <lastmod>2026-06-08</lastmod>
+        <lastmod>2026-09-16</lastmod>
     </url>
     <url>
-        <loc>https://www.investment-banking.org/ownership-and-funding.html</loc>
+        <loc>https://www.investment-banking.org/ownership-and-funding</loc>
         <priority>0.5</priority>
         <changefreq>yearly</changefreq>
-        <lastmod>2026-06-08</lastmod>
+        <lastmod>2026-09-16</lastmod>
     </url>
     <url>
-        <loc>https://www.investment-banking.org/advertising-and-sponsored-content-policy.html</loc>
+        <loc>https://www.investment-banking.org/advertising-and-sponsored-content-policy</loc>
         <priority>0.5</priority>
         <changefreq>yearly</changefreq>
-        <lastmod>2026-06-08</lastmod>
+        <lastmod>2026-09-16</lastmod>
     </url>
     <url>
-        <loc>https://www.investment-banking.org/right-of-reply-policy.html</loc>
+        <loc>https://www.investment-banking.org/right-of-reply-policy</loc>
         <priority>0.5</priority>
         <changefreq>yearly</changefreq>
-        <lastmod>2026-06-08</lastmod>
+        <lastmod>2026-09-16</lastmod>
     </url>
     <url>
-        <loc>https://www.investment-banking.org/legal.html</loc>
+        <loc>https://www.investment-banking.org/legal</loc>
         <priority>0.4</priority>
         <changefreq>yearly</changefreq>
-        <lastmod>2026-06-08</lastmod>
+        <lastmod>2026-09-16</lastmod>
     </url>
     <url>
-        <loc>https://www.investment-banking.org/terms-and-conditions.html</loc>
+        <loc>https://www.investment-banking.org/terms-and-conditions</loc>
         <priority>0.4</priority>
         <changefreq>yearly</changefreq>
-        <lastmod>2026-06-08</lastmod>
+        <lastmod>2026-09-16</lastmod>
     </url>
 </urlset>

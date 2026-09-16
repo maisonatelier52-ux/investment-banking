@@ -1,4 +1,11 @@
 User-agent: *
+Allow: /
 Disallow: /cgi-bin/
+Disallow: /404
+
+User-agent: Googlebot
+Allow: /
 
 Sitemap: https://www.investment-banking.org/sitemap.xml
+Sitemap: https://www.investment-banking.org/sitemap-pages.xml
+Sitemap: https://www.investment-banking.org/sitemap-articles.xml
