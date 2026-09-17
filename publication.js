@@ -12,9 +12,9 @@ document.addEventListener("DOMContentLoaded", () => {
   const categoryRailHost = document.querySelector(".cateagory-grid-section-r");
   if (categoryRailHost) {
     categoryRailHost.innerHTML = `
-      <aside class="category-rail" aria-label="Explore the publication">
+      <aside class="category-rail" aria-label="Explore the blog">
         <section class="category-rail-section">
-          <h2>Explore coverage</h2>
+          <h2>Explore topics</h2>
           <div class="category-rail-links">
             <a href="/us/us.html">U.S.</a>
             <a href="/markets/markets.html">Markets</a>
@@ -27,8 +27,8 @@ document.addEventListener("DOMContentLoaded", () => {
           </div>
         </section>
         <section class="category-rail-newsletter">
-          <h2>Stay ahead of the story</h2>
-          <p>Receive essential financial headlines and analysis from the Investment Banking newsroom.</p>
+          <h2>Follow the blog</h2>
+          <p>Explore finance explainers, case studies, and commentary from the Investment Banking blog.</p>
           <a href="/#newsletter">Join the newsletter</a>
         </section>
       </aside>`;

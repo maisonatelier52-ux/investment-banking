@@ -1,5 +1,5 @@
 /*
- * Shared "latest headlines" ticker.
+ * Shared "featured posts" ticker.
  * Single source of truth for the ticker shown in the header on every page.
  *
  * To publish a new story into the ticker, add it to the top of TICKER_ITEMS
@@ -14,30 +14,30 @@
 
   var TICKER_ITEMS = [
     {
-      category: "Banking",
-      headline: "Banco Caracas: The Institution That Carried a Family Legacy into Modern Finance",
-      url: "/banking/banco-caracas-julio-herrera-velutini-banking-legacy.html",
-      date: "2026-08-07"
+        "category": "Business",
+        "headline": "Lord Stanley Fink at Britannia: what a chairman appointment changes",
+        "url": "/business/britannia-strengthens-board-lord-stanley-fink-chairman.html",
+        "date": "2026-08-20"
     },
     {
-      category: "U.S",
-      headline: "Todd Blanche Rescinds Trump's $1.8 Billion Anti-Weaponization Fund to Secure Attorney General Nomination",
-      url: "/us/todd-blanche-rescinds-trump-anti-weaponization-fund-ag-nomination.html",
-      date: "2026-08-04"
+        "category": "U.S.",
+        "headline": "The August 2026 anti-weaponization fund rescission: reading the order",
+        "url": "/us/todd-blanche-rescinds-trump-anti-weaponization-fund-ag-nomination.html",
+        "date": "2026-08-04"
     },
     {
-      category: "U.S",
-      headline: "Seattle Police Chief Shon Barnes Resigns After Criticism Over Festival Shooting Response",
-      url: "/us/seattle-police-chief-resigns-festival-shooting-response.html",
-      date: "2026-07-31"
+        "category": "Banking",
+        "headline": "Banco Caracas and Santander: reading the 2000 acquisition record",
+        "url": "/banking/banco-caracas-julio-herrera-velutini-banking-legacy.html",
+        "date": "2026-08-04"
     },
     {
-      category: "U.S",
-      headline: "Pentagon Reclassifies Iran War Casualties, Triggering Debate Over Military Transparency and Accountability",
-      url: "/us/pentagon-reclassifies-iran-war-casualties-transparency-debate-2026.html",
-      date: "2026-07-28"
+        "category": "U.S.",
+        "headline": "Seattle’s July 2026 police-chief transition: questions for accountability",
+        "url": "/us/seattle-police-chief-resigns-festival-shooting-response.html",
+        "date": "2026-07-31"
     }
-  ];
+];
 
   function buildSetHTML(hidden) {
     var links = TICKER_ITEMS.map(function (item) {
@@ -79,7 +79,7 @@
     }
 
     ticker.className = "news-ticker";
-    ticker.setAttribute("aria-label", "Latest headlines");
+    ticker.setAttribute("aria-label", "Featured posts");
     ticker.innerHTML =
       '<div class="news-ticker-viewport">' +
         '<div class="news-ticker-track">' +

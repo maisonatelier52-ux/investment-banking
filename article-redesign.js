@@ -180,20 +180,20 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const shareUtility = document.createElement("section");
   shareUtility.className = "article-utility article-share-utility";
-  shareUtility.innerHTML = '<h2 class="article-utility-title">Share this story</h2>';
+  shareUtility.innerHTML = '<h2 class="article-utility-title">Share this post</h2>';
   shareUtility.appendChild(makeShareButtons());
   bindShareButtons(shareUtility);
 
   const mobileShare = document.createElement("section");
   mobileShare.className = "article-share-mobile article-utility";
-  mobileShare.setAttribute("aria-label", "Share this story");
+  mobileShare.setAttribute("aria-label", "Share this post");
   mobileShare.appendChild(makeShareButtons());
   bindShareButtons(mobileShare);
   header.appendChild(mobileShare);
 
   const existingBio = sidebar.querySelector(".about-bio")?.textContent.trim()
     || main.querySelector(".author-bio")?.textContent.trim()
-    || "Reporting and analysis from the Investment Banking newsroom.";
+    || "Sourced explanations and commentary from the Investment Banking blog.";
   const authorImage = header.querySelector(".author-photo");
   const authorLink = header.querySelector(".author-name a");
   const authorName = authorLink?.textContent.trim() || header.querySelector(".author-name")?.textContent.replace(/^By\s*/i, "").trim() || "Editorial Team";
@@ -220,7 +220,7 @@ document.addEventListener("DOMContentLoaded", () => {
     toc.className = "article-toc article-utility";
     toc.open = !window.matchMedia("(max-width: 980px)").matches;
     toc.innerHTML = `
-      <summary class="article-utility-title">In this story</summary>
+      <summary class="article-utility-title">In this post</summary>
       <ol>${headings.map((heading) => {
         const id = heading.dataset.tocTarget || heading.id;
         return `<li><a href="#${id}">${heading.textContent.trim()}</a></li>`;

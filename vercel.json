@@ -10,6 +10,11 @@
       "permanent": true
     },
     {
+      "source": "/index",
+      "destination": "/",
+      "permanent": true
+    },
+    {
       "source": "/banking/banking",
       "destination": "/banking",
       "permanent": true
@@ -90,18 +95,7 @@
       "permanent": true
     }
   ],
-  "routes": [
-    {
-      "src": "/index",
-      "dest": "/"
-    },
-    {
-      "handle": "filesystem"
-    },
-    {
-      "src": "/(.*)",
-      "status": 404,
-      "dest": "/404.html"
-    }
-  ]
+  "framework": null,
+  "buildCommand": "",
+  "outputDirectory": "."
 }
