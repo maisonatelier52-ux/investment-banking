@@ -166,3 +166,171 @@
   .category-index .bottom-mid-section { grid-template-columns: 1fr; }
   .category-index .three-gird-img-wrapper { aspect-ratio: 16 / 9; }
 }
+
+
+/* ===== Category layout overlap + responsive fixes (2026-09) ===== */
+
+/* Ensure header rule and featured block never collide */
+.category-index .cateagory-top {
+  position: relative;
+  z-index: 2;
+  width: 100% !important;
+  margin: 0 0 0 0;
+  padding-bottom: 14px;
+  border-bottom: 3px solid var(--publication-navy-dark, #0b1f33);
+  overflow: visible;
+}
+
+.category-index .cateagory-head,
+.category-index .cateagory-head a {
+  position: relative;
+  z-index: 2;
+  display: inline-block;
+  max-width: 100%;
+  text-decoration: none;
+}
+
+/* Kill the old partial-width top from cateagory.css */
+.category-index .cateagory-body-section > .cateagory-top {
+  width: 100% !important;
+  max-width: 100%;
+}
+
+/* Featured row: start content from top, not vertically centered into the rule */
+.category-index .cateagory-two-section {
+  position: relative;
+  z-index: 1;
+  margin-top: 8px;
+  padding: 28px 0 40px;
+  align-items: start;
+}
+
+.category-index .cateagory-two-section-grid.r {
+  height: auto !important; /* override fixed 350px from cateagory.css */
+  align-items: flex-start !important;
+  justify-content: flex-start !important;
+  padding: 0 !important;
+}
+
+.category-index .cateagory-two-section-grid-content {
+  justify-content: flex-start !important;
+  height: auto !important;
+  padding: 4px 0 0 !important;
+  gap: 10px;
+}
+
+/* Featured card category badge is redundant with page H1 and was overlapping the header rule */
+.category-index .cateagory-two-section .mini-title-bl {
+  display: none !important;
+}
+
+.category-index .cateagory-two-section .main-head {
+  margin: 6px 0 14px !important;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.category-index .cateagory-img-wrapper {
+  min-height: 280px;
+  max-height: none;
+}
+
+/* Grid list cards: prevent title/image collisions */
+.category-index .bottom-mid-section {
+  align-items: start;
+  overflow: hidden;
+}
+.category-index .bottom-mid-section .main-head.b,
+.category-index .bottom-mid-section .main-head {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+.category-index .three-gird-img-wrapper,
+.category-index .cateagory-img-wrapper {
+  overflow: hidden;
+}
+
+/* Tablet */
+@media (max-width: 900px) {
+  .category-index .cateagory-two-section {
+    grid-template-columns: 1fr !important;
+    gap: 16px;
+    padding: 22px 0 32px;
+    margin-top: 4px;
+  }
+  .category-index .cateagory-two-section-grid.l,
+  .category-index .cateagory-two-section-grid.r {
+    width: 100% !important;
+    order: initial;
+  }
+  .category-index .cateagory-img-wrapper {
+    min-height: 0 !important;
+    aspect-ratio: 16 / 9;
+    height: auto !important;
+  }
+  .category-index .cateagory-two-section-grid.r {
+    height: auto !important;
+  }
+  .category-index .cateagory-grid-section {
+    grid-template-columns: 1fr !important;
+    gap: 36px;
+  }
+  .category-index .cateagory-grid-section-r {
+    position: static !important;
+  }
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+  .category-index .cateagory-body-section {
+    width: calc(100% - 28px) !important;
+    padding: 28px 0 48px;
+    gap: 12px;
+  }
+  .category-index .cateagory-head {
+    font-size: clamp(32px, 9vw, 42px) !important;
+    line-height: 1.05 !important;
+  }
+  .category-index .cateagory-top {
+    padding-bottom: 10px;
+  }
+  .category-index .cateagory-two-section {
+    padding: 18px 0 28px;
+    gap: 14px;
+  }
+  .category-index .cateagory-two-section .main-head {
+    font-size: clamp(26px, 7vw, 34px) !important;
+    line-height: 1.08 !important;
+    margin: 4px 0 12px !important;
+  }
+  .category-index .cateagory-para {
+    font-size: 15px !important;
+  }
+  .category-index .bottom-mid-section {
+    grid-template-columns: 110px minmax(0, 1fr) !important;
+    gap: 14px;
+    padding-bottom: 20px;
+  }
+  .category-index .main-head.b {
+    font-size: 18px !important;
+    line-height: 1.2 !important;
+  }
+  /* hide long decks on small cards to reduce clutter */
+  .category-index .main-para.d {
+    display: none !important;
+  }
+}
+
+@media (max-width: 470px) {
+  .category-index .bottom-mid-section {
+    grid-template-columns: 1fr !important;
+  }
+  .category-index .three-gird-img-wrapper {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+  }
+  .category-index .cateagory-body-section {
+    width: calc(100% - 20px) !important;
+  }
+}
