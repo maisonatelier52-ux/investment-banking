@@ -1,0 +1,3598 @@
+{
+  "about": {
+    "title": "Finance explained, with context.",
+    "metaTitle": "About the Blog | Investment Banking",
+    "description": "A finance blog with sourced explainers, case studies, and commentary. Learn about its purpose, content, and approach to sources.",
+    "content": [
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "about-split"
+        },
+        "children": [
+          {
+            "tag": "div",
+            "attrs": {
+              "class": "about-content-column"
+            },
+            "children": [
+              {
+                "tag": "nav",
+                "attrs": {
+                  "class": "about-breadcrumb"
+                },
+                "children": [
+                  {
+                    "tag": "a",
+                    "attrs": {
+                      "href": "/"
+                    },
+                    "children": [
+                      "Home"
+                    ]
+                  },
+                  {
+                    "tag": "span",
+                    "attrs": {},
+                    "children": [
+                      "/"
+                    ]
+                  },
+                  {
+                    "tag": "span",
+                    "attrs": {},
+                    "children": [
+                      "About us"
+                    ]
+                  }
+                ]
+              },
+              {
+                "tag": "section",
+                "attrs": {
+                  "class": "about-page-hero"
+                },
+                "children": [
+                  {
+                    "tag": "div",
+                    "attrs": {
+                      "class": "about-page-hero-copy"
+                    },
+                    "children": [
+                      {
+                        "tag": "p",
+                        "attrs": {
+                          "class": "about-eyebrow"
+                        },
+                        "children": [
+                          "About the blog"
+                        ]
+                      },
+                      {
+                        "tag": "h1",
+                        "attrs": {
+                          "id": "about-page-title"
+                        },
+                        "children": [
+                          "Finance explained, with context."
+                        ]
+                      },
+                      {
+                        "tag": "p",
+                        "attrs": {
+                          "class": "about-deck"
+                        },
+                        "children": [
+                          "Investment Banking is a finance blog about markets, banking, business, technology, and public policy. Our posts combine sourced facts with explanation, case studies, and clearly identified opinion."
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "aside",
+                    "attrs": {
+                      "class": "about-brief"
+                    },
+                    "children": [
+                      {
+                        "tag": "p",
+                        "attrs": {
+                          "class": "about-brief-label"
+                        },
+                        "children": [
+                          "Publication brief"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tag": "section",
+                "attrs": {
+                  "class": "about-mission"
+                },
+                "children": [
+                  {
+                    "tag": "div",
+                    "attrs": {
+                      "class": "about-prose"
+                    },
+                    "children": [
+                      {
+                        "tag": "p",
+                        "attrs": {},
+                        "children": [
+                          "A bank’s earnings, a new lending rule, or a change in interest rates can be easier to understand with the right context. Our posts explain the terms, examine the assumptions, and link to the records behind the facts."
+                        ]
+                      },
+                      {
+                        "tag": "p",
+                        "attrs": {},
+                        "children": [
+                          "The blog is for readers, students, and professionals who want to ask better questions about finance and public decisions. Historical case studies retain their dates so readers can see what happened and when."
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tag": "section",
+                "attrs": {
+                  "class": "about-principles"
+                },
+                "children": [
+                  {
+                    "tag": "div",
+                    "attrs": {
+                      "class": "about-principles-heading"
+                    },
+                    "children": [
+                      {
+                        "tag": "p",
+                        "attrs": {
+                          "class": "about-eyebrow"
+                        },
+                        "children": [
+                          "What guides us"
+                        ]
+                      },
+                      {
+                        "tag": "h2",
+                        "attrs": {
+                          "id": "about-principles-title"
+                        },
+                        "children": [
+                          " Four principles shape every story. "
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "div",
+                    "attrs": {
+                      "class": "about-principles-grid"
+                    },
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "tag": "section",
+                "attrs": {
+                  "class": "about-newsroom"
+                },
+                "children": [
+                  {
+                    "tag": "div",
+                    "attrs": {
+                      "class": "about-newsroom-intro"
+                    },
+                    "children": [
+                      {
+                        "tag": "p",
+                        "attrs": {
+                          "class": "about-eyebrow"
+                        },
+                        "children": [
+                          "Who we are"
+                        ]
+                      },
+                      {
+                        "tag": "h2",
+                        "attrs": {
+                          "id": "about-newsroom-title"
+                        },
+                        "children": [
+                          "A blog built around sources and explanation."
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "div",
+                    "attrs": {
+                      "class": "about-newsroom-copy"
+                    },
+                    "children": [
+                      {
+                        "tag": "p",
+                        "attrs": {},
+                        "children": [
+                          "Posts draw on company filings, official records, research, and attributable published reporting. A case study explains a dated event; an explainer focuses on how something works; an opinion post makes an argument."
+                        ]
+                      },
+                      {
+                        "tag": "p",
+                        "attrs": {},
+                        "children": [
+                          "The archive includes posts revised with AI assistance. Source links and revision notes help readers inspect factual claims, understand the limits of the evidence, and distinguish explanation from opinion. Article images are AI-generated editorial illustrations, not photographs of the events or people discussed."
+                        ]
+                      },
+                      {
+                        "tag": "ul",
+                        "attrs": {
+                          "class": "about-coverage"
+                        },
+                        "children": [
+                          {
+                            "tag": "li",
+                            "attrs": {},
+                            "children": [
+                              "Markets"
+                            ]
+                          },
+                          {
+                            "tag": "li",
+                            "attrs": {},
+                            "children": [
+                              "Business"
+                            ]
+                          },
+                          {
+                            "tag": "li",
+                            "attrs": {},
+                            "children": [
+                              "Banking"
+                            ]
+                          },
+                          {
+                            "tag": "li",
+                            "attrs": {},
+                            "children": [
+                              "Investigations"
+                            ]
+                          },
+                          {
+                            "tag": "li",
+                            "attrs": {},
+                            "children": [
+                              "ESG"
+                            ]
+                          },
+                          {
+                            "tag": "li",
+                            "attrs": {},
+                            "children": [
+                              "FinTech"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tag": "section",
+                "attrs": {
+                  "class": "about-standards"
+                },
+                "children": [
+                  {
+                    "tag": "div",
+                    "attrs": {
+                      "class": "about-standards-copy"
+                    },
+                    "children": [
+                      {
+                        "tag": "p",
+                        "attrs": {
+                          "class": "about-eyebrow"
+                        },
+                        "children": [
+                          "Our writing policies explain sourcing, corrections, opinion labels, and the disclosure of commercial relationships. Blog format does not reduce the need for accurate claims and clear attribution."
+                        ]
+                      },
+                      {
+                        "tag": "h2",
+                        "attrs": {
+                          "id": "about-standards-title"
+                        },
+                        "children": [
+                          "Trust should be inspectable."
+                        ]
+                      },
+                      {
+                        "tag": "p",
+                        "attrs": {},
+                        "children": [
+                          "Our writing policies explain sourcing, corrections, opinion labels, and the disclosure of commercial relationships. Blog format does not reduce the need for accurate claims and clear attribution."
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "nav",
+                    "attrs": {
+                      "class": "about-policy-links"
+                    },
+                    "children": [
+                      {
+                        "tag": "a",
+                        "attrs": {
+                          "href": "/editorial-policy"
+                        },
+                        "children": [
+                          {
+                            "tag": "span",
+                            "attrs": {},
+                            "children": [
+                              "Editorial policy"
+                            ]
+                          },
+                          {
+                            "tag": "b",
+                            "attrs": {},
+                            "children": [
+                              "→"
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "a",
+                        "attrs": {
+                          "href": "/corrections-policy"
+                        },
+                        "children": [
+                          {
+                            "tag": "span",
+                            "attrs": {},
+                            "children": [
+                              "Corrections policy"
+                            ]
+                          },
+                          {
+                            "tag": "b",
+                            "attrs": {},
+                            "children": [
+                              "→"
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "a",
+                        "attrs": {
+                          "href": "/source-methodology"
+                        },
+                        "children": [
+                          {
+                            "tag": "span",
+                            "attrs": {},
+                            "children": [
+                              "Source methodology"
+                            ]
+                          },
+                          {
+                            "tag": "b",
+                            "attrs": {},
+                            "children": [
+                              "→"
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "a",
+                        "attrs": {
+                          "href": "/ownership-and-funding"
+                        },
+                        "children": [
+                          {
+                            "tag": "span",
+                            "attrs": {},
+                            "children": [
+                              "Ownership & funding"
+                            ]
+                          },
+                          {
+                            "tag": "b",
+                            "attrs": {},
+                            "children": [
+                              "→"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tag": "p",
+                "attrs": {
+                  "class": "about-updated"
+                },
+                "children": [
+                  " Page updated ",
+                  {
+                    "tag": "time",
+                    "attrs": {
+                      "datetime": "2026-08-07"
+                    },
+                    "children": [
+                      "August 7, 2026"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "aside",
+            "attrs": {
+              "class": "about-brand-column"
+            },
+            "children": [
+              {
+                "tag": "a",
+                "attrs": {
+                  "href": "/",
+                  "title": "Investment Banking home"
+                },
+                "children": [
+                  {
+                    "tag": "img",
+                    "attrs": {
+                      "src": "/assets/branding/investment-banking-logo.png",
+                      "alt": "Investment Banking"
+                    },
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "about-us": {
+    "title": "A clearer understanding of finance.",
+    "metaTitle": "About the Blog | Investment Banking",
+    "description": "A finance blog with sourced explainers, case studies, and commentary. Learn about its purpose, content, and approach to sources.",
+    "content": [
+      {
+        "tag": "section",
+        "attrs": {
+          "class": "about-hero"
+        },
+        "children": [
+          {
+            "tag": "div",
+            "attrs": {
+              "class": "about-hero-copy"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "class": "about-kicker"
+                },
+                "children": [
+                  "Our blog"
+                ]
+              },
+              {
+                "tag": "h1",
+                "attrs": {
+                  "id": "about-title"
+                },
+                "children": [
+                  "A clearer understanding of finance."
+                ]
+              },
+              {
+                "tag": "p",
+                "attrs": {
+                  "class": "about-intro"
+                },
+                "children": [
+                  "Investment Banking is a finance blog with sourced explainers, case studies, and commentary on institutions, markets, and public policy."
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "figure",
+            "attrs": {
+              "class": "about-hero-media"
+            },
+            "children": [
+              {
+                "tag": "img",
+                "attrs": {
+                  "src": "/illustrations/84-boardroom-oversight.webp",
+                  "alt": "Editorial illustration: An empty boardroom table with a governance ledger and city skyline."
+                },
+                "children": []
+              },
+              {
+                "tag": "figcaption",
+                "attrs": {},
+                "children": [
+                  " Reporting across banking, markets, business, ESG and financial technology. "
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "section",
+        "attrs": {
+          "class": "about-principles"
+        },
+        "children": [
+          {
+            "tag": "div",
+            "attrs": {
+              "class": "about-section-heading"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "class": "about-kicker"
+                },
+                "children": [
+                  "What guides us"
+                ]
+              },
+              {
+                "tag": "h2",
+                "attrs": {
+                  "id": "principles-title"
+                },
+                "children": [
+                  "Built for trust, not noise."
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "class": "principle-grid"
+            },
+            "children": []
+          }
+        ]
+      },
+      {
+        "tag": "section",
+        "attrs": {
+          "class": "about-story"
+        },
+        "children": [
+          {
+            "tag": "div",
+            "attrs": {
+              "class": "about-story-title"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "class": "about-kicker"
+                },
+                "children": [
+                  "Who we serve"
+                ]
+              },
+              {
+                "tag": "h2",
+                "attrs": {
+                  "id": "story-title"
+                },
+                "children": [
+                  " A clear view of a fast-moving financial system. "
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "class": "about-story-copy"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {},
+                "children": [
+                  "Understand a financial result, compare a policy argument, or follow the assumptions behind a forecast. The blog connects those questions with plain explanations and links to the evidence."
+                ]
+              },
+              {
+                "tag": "p",
+                "attrs": {},
+                "children": [
+                  "Posts distinguish documented facts, attributed claims, analysis, and opinion. The archive includes AI-assisted revisions. Publication dates identify the original posts; update dates identify later revisions. Article images are AI-generated editorial illustrations, not photographs of the events or people discussed."
+                ]
+              },
+              {
+                "tag": "p",
+                "attrs": {},
+                "children": [
+                  "Explore banking, markets, business, technology, sustainability, public policy, and opinion. The Investigations section examines public records and published accounts; it does not imply original field reporting."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "section",
+        "attrs": {
+          "class": "about-standards"
+        },
+        "children": [
+          {
+            "tag": "div",
+            "attrs": {},
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "class": "about-kicker"
+                },
+                "children": [
+                  "Our standards"
+                ]
+              },
+              {
+                "tag": "h2",
+                "attrs": {
+                  "id": "standards-title"
+                },
+                "children": [
+                  "See how the blog works."
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "class": "standards-links"
+            },
+            "children": [
+              {
+                "tag": "a",
+                "attrs": {
+                  "href": "/editorial-policy"
+                },
+                "children": [
+                  {
+                    "tag": "span",
+                    "attrs": {},
+                    "children": [
+                      "Editorial policy"
+                    ]
+                  },
+                  {
+                    "tag": "b",
+                    "attrs": {},
+                    "children": [
+                      "→"
+                    ]
+                  }
+                ]
+              },
+              {
+                "tag": "a",
+                "attrs": {
+                  "href": "/corrections-policy"
+                },
+                "children": [
+                  {
+                    "tag": "span",
+                    "attrs": {},
+                    "children": [
+                      "Corrections policy"
+                    ]
+                  },
+                  {
+                    "tag": "b",
+                    "attrs": {},
+                    "children": [
+                      "→"
+                    ]
+                  }
+                ]
+              },
+              {
+                "tag": "a",
+                "attrs": {
+                  "href": "/source-methodology"
+                },
+                "children": [
+                  {
+                    "tag": "span",
+                    "attrs": {},
+                    "children": [
+                      "Source methodology"
+                    ]
+                  },
+                  {
+                    "tag": "b",
+                    "attrs": {},
+                    "children": [
+                      "→"
+                    ]
+                  }
+                ]
+              },
+              {
+                "tag": "a",
+                "attrs": {
+                  "href": "/ownership-and-funding"
+                },
+                "children": [
+                  {
+                    "tag": "span",
+                    "attrs": {},
+                    "children": [
+                      "Ownership & funding"
+                    ]
+                  },
+                  {
+                    "tag": "b",
+                    "attrs": {},
+                    "children": [
+                      "→"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "metaTitle": "Contact Investment Banking – Get in Touch",
+    "description": "Contact Investment Banking about posts, corrections, topic suggestions, replies, permissions, or legal concerns.",
+    "content": [
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "contact-hero"
+        },
+        "children": [
+          {
+            "tag": "h1",
+            "attrs": {},
+            "children": [
+              "Get in Touch"
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              "Investment Banking is a finance blog. We welcome topic suggestions, corrections, and thoughtful feedback from readers and people discussed in our posts."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "contact-section"
+        },
+        "children": [
+          {
+            "tag": "h2",
+            "attrs": {},
+            "children": [
+              "Editorial & General Contact"
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              "For questions about a post, topic suggestions, or general enquiries, use:"
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              {
+                "tag": "strong",
+                "attrs": {},
+                "children": [
+                  "Email: "
+                ]
+              },
+              {
+                "tag": "a",
+                "attrs": {
+                  "href": "mailto:editorial@investment-banking.org"
+                },
+                "children": [
+                  "editorial@investment-banking.org"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "contact-section"
+        },
+        "children": [
+          {
+            "tag": "h2",
+            "attrs": {},
+            "children": [
+              "Ideas and Sources"
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              "Send suggestions for topics, useful public records, or source material. Email is not presented as a secure or confidential submission channel; avoid sending sensitive personal information."
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              {
+                "tag": "strong",
+                "attrs": {},
+                "children": [
+                  "Email: "
+                ]
+              },
+              {
+                "tag": "a",
+                "attrs": {
+                  "href": "mailto:tips@investment-banking.org"
+                },
+                "children": [
+                  "tips@investment-banking.org"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "contact-section"
+        },
+        "children": [
+          {
+            "tag": "h2",
+            "attrs": {},
+            "children": [
+              "Corrections"
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              "To report a factual error, include the post URL, the disputed statement, and the evidence supporting a correction."
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              {
+                "tag": "strong",
+                "attrs": {},
+                "children": [
+                  "Corrections Email: "
+                ]
+              },
+              {
+                "tag": "a",
+                "attrs": {
+                  "href": "mailto:corrections@investment-banking.org"
+                },
+                "children": [
+                  "corrections@investment-banking.org"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "contact-section"
+        },
+        "children": [
+          {
+            "tag": "h2",
+            "attrs": {},
+            "children": [
+              "Media & Press Inquiries"
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              "For collaboration, media enquiries, or questions about the blog, use the contact address below."
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              {
+                "tag": "strong",
+                "attrs": {},
+                "children": [
+                  "Media Email: "
+                ]
+              },
+              {
+                "tag": "a",
+                "attrs": {
+                  "href": "mailto:media@investment-banking.org"
+                },
+                "children": [
+                  "media@investment-banking.org"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "contact-section"
+        },
+        "children": [
+          {
+            "tag": "h2",
+            "attrs": {},
+            "children": [
+              "Permissions & Legal"
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              "For reprint requests, reuse permissions, or legal concerns, use the address below."
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              {
+                "tag": "strong",
+                "attrs": {},
+                "children": [
+                  "Legal & Permissions Email: "
+                ]
+              },
+              {
+                "tag": "a",
+                "attrs": {
+                  "href": "mailto:legal@investment-banking.org"
+                },
+                "children": [
+                  "legal@investment-banking.org"
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {
+              "class": "note"
+            },
+            "children": [
+              "Include the relevant URL and enough detail to identify the issue. Avoid sending passwords, account numbers, or sensitive personal records by ordinary email."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "update-date"
+        },
+        "children": [
+          " Last Updated: June 8, 2026 "
+        ]
+      }
+    ]
+  },
+  "corrections-policy": {
+    "title": "Corrections Policy",
+    "metaTitle": "Corrections Policy – Investment Banking Blog | Transparency & Accuracy",
+    "description": "How to report a factual error and understand correction, clarification, and update notes on Investment Banking posts.",
+    "content": [
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "policy-header"
+        },
+        "children": [
+          {
+            "tag": "h1",
+            "attrs": {},
+            "children": [
+              "Corrections Policy"
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              "Factual accuracy matters in every blog post. Readers can report errors with supporting evidence, and material corrections should explain what changed and why. An update date identifies a revision rather than a newly published event."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "policy-section"
+        },
+        "children": [
+          {
+            "tag": "h2",
+            "attrs": {},
+            "children": [
+              "How We Handle Mistakes"
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              "Different types of errors require distinct responses:"
+            ]
+          },
+          {
+            "tag": "h3",
+            "attrs": {},
+            "children": [
+              "Minor errors"
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              "Spelling, grammar, and typographical errors can be corrected without a separate note when the meaning is unchanged."
+            ]
+          },
+          {
+            "tag": "h3",
+            "attrs": {},
+            "children": [
+              "Factual errors"
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              "Correct material errors in names, figures, dates, and other factual claims on the affected post. A revision or correction note should explain what changed and why."
+            ]
+          },
+          {
+            "tag": "h3",
+            "attrs": {},
+            "children": [
+              "Later developments"
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              "A dated case study may be revised when new evidence changes its account. Identify the new development and its date. An editorial update does not imply that the post covers every subsequent event."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "policy-section"
+        },
+        "children": [
+          {
+            "tag": "h2",
+            "attrs": {},
+            "children": [
+              "Where Corrections Appear"
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              "Place a material correction on the affected post, where readers can see it alongside the revised account."
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              "Use a correction for an error, a clarification for wording that could mislead, and an update for a later development."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "policy-section"
+        },
+        "children": [
+          {
+            "tag": "h2",
+            "attrs": {},
+            "children": [
+              "What a Correction Request Should Include"
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              "A useful correction request includes:"
+            ]
+          },
+          {
+            "tag": "ul",
+            "attrs": {},
+            "children": [
+              {
+                "tag": "li",
+                "attrs": {},
+                "children": [
+                  "The article URL or headline"
+                ]
+              },
+              {
+                "tag": "li",
+                "attrs": {},
+                "children": [
+                  "The specific line or claim you believe is incorrect"
+                ]
+              },
+              {
+                "tag": "li",
+                "attrs": {},
+                "children": [
+                  "The factual basis for your objection"
+                ]
+              },
+              {
+                "tag": "li",
+                "attrs": {},
+                "children": [
+                  "Supporting documents or dated sources"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "policy-section"
+        },
+        "children": [
+          {
+            "tag": "h2",
+            "attrs": {},
+            "children": [
+              "Reader Submissions"
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              "Send a correction request with a direct link and a short explanation of the disputed claim. An official document, dataset, or dated source helps the reviewer assess it."
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              {
+                "tag": "strong",
+                "attrs": {},
+                "children": [
+                  "Corrections Email:"
+                ]
+              },
+              {
+                "tag": "a",
+                "attrs": {
+                  "href": "mailto:corrections@investment-banking.org"
+                },
+                "children": [
+                  "corrections@investment-banking.org"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "policy-section"
+        },
+        "children": [
+          {
+            "tag": "h2",
+            "attrs": {},
+            "children": [
+              "Our Commitment to Transparency"
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              "Material factual changes should remain visible through a note. Disagreement with an opinion is different from a factual error, but evidence that undermines the argument’s factual basis should be reviewed."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "policy-section"
+        },
+        "children": [
+          {
+            "tag": "h2",
+            "attrs": {},
+            "children": [
+              "Why This Matters"
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              "Clear corrections let readers understand both the current account and why it changed."
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              {
+                "tag": "a",
+                "attrs": {
+                  "href": "/editorial-policy"
+                },
+                "children": [
+                  "View our full Editorial Policy →"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "update-date"
+        },
+        "children": [
+          " Last Updated: June 8, 2026 "
+        ]
+      }
+    ]
+  },
+  "editorial-policy": {
+    "title": "Editorial Policy",
+    "metaTitle": "Editorial Policy – Investment Banking Blog",
+    "description": "How Investment Banking uses sources, labels opinion, discloses relevant relationships, and approaches corrections.",
+    "content": [
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "policy-header"
+        },
+        "children": [
+          {
+            "tag": "h1",
+            "attrs": {},
+            "children": [
+              "Editorial Policy"
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              "Investment Banking publishes sourced finance explainers, case studies, and commentary. These standards describe how posts should use evidence, distinguish opinion, and handle corrections."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "policy-section"
+        },
+        "children": [
+          {
+            "tag": "h2",
+            "attrs": {},
+            "children": [
+              "Editorial Independence"
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              "Editorial decisions should be based on evidence and reader value. Payment, gifts, sponsorship, or access must not determine a post’s conclusions. Any commercial relationship relevant to a post should be disclosed where readers encounter it."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "policy-section"
+        },
+        "children": [
+          {
+            "tag": "h2",
+            "attrs": {},
+            "children": [
+              "Accuracy and Verification"
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              "Posts should identify the sources for factual claims and distinguish company statements, allegations, forecasts, and established findings. The revised archive uses desk research and AI-assisted editing. Its source links do not imply independent interviews or outreach to the people discussed."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "policy-section"
+        },
+        "children": [
+          {
+            "tag": "h2",
+            "attrs": {},
+            "children": [
+              "Fairness and Balance"
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              "Represent relevant disagreements fairly and assess claims by the strength of their evidence. Equal space is not required for claims with unequal support."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "policy-section"
+        },
+        "children": [
+          {
+            "tag": "h2",
+            "attrs": {},
+            "children": [
+              "Transparency"
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              "Readers should be able to see the basis of a post. These are the blog’s standards:"
+            ]
+          },
+          {
+            "tag": "ul",
+            "attrs": {},
+            "children": [
+              {
+                "tag": "li",
+                "attrs": {},
+                "children": [
+                  "Distinguish case studies, explainers, analysis, and opinion."
+                ]
+              },
+              {
+                "tag": "li",
+                "attrs": {},
+                "children": [
+                  "Use contributor credits that accurately reflect responsibility for a post."
+                ]
+              },
+              {
+                "tag": "li",
+                "attrs": {},
+                "children": [
+                  "Identify material AI assistance and keep source-based claims open to inspection."
+                ]
+              },
+              {
+                "tag": "li",
+                "attrs": {},
+                "children": [
+                  "Label sponsored posts, paid placements, and affiliate relationships clearly."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "policy-section"
+        },
+        "children": [
+          {
+            "tag": "h2",
+            "attrs": {},
+            "children": [
+              "Disclosure and Labeling"
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              "Disclose relationships that could affect how a reader evaluates a post. Sponsored material, paid placements, and affiliate links should carry a clear disclosure close to the relevant content."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "policy-section"
+        },
+        "children": [
+          {
+            "tag": "h2",
+            "attrs": {},
+            "children": [
+              "Ethical Standards"
+            ]
+          },
+          {
+            "tag": "h3",
+            "attrs": {},
+            "children": [
+              "No undisclosed conflicts of interest"
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              "Contributors should disclose relevant personal, professional, and financial relationships before publication."
+            ]
+          },
+          {
+            "tag": "h3",
+            "attrs": {},
+            "children": [
+              "No hidden sponsored content"
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              "Paid or sponsored material should be clearly labeled so readers can identify its commercial purpose."
+            ]
+          },
+          {
+            "tag": "h3",
+            "attrs": {},
+            "children": [
+              "Respect for privacy"
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              "Include personal information only where it helps readers understand a matter of public interest. Avoid unnecessary identifying or graphic details."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "policy-section"
+        },
+        "children": [
+          {
+            "tag": "h2",
+            "attrs": {},
+            "children": [
+              "Reader Feedback and Accountability"
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              "Send corrections, source suggestions, or concerns to ",
+              {
+                "tag": "a",
+                "attrs": {
+                  "href": "mailto:editorial@investment-banking.org"
+                },
+                "children": [
+                  "editorial@investment-banking.org"
+                ]
+              },
+              ". Include the post URL, the specific point at issue, and any supporting record."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "update-date"
+        },
+        "children": [
+          "Last Updated: June 8, 2026"
+        ]
+      }
+    ]
+  },
+  "legal": {
+    "title": "Legal Information",
+    "metaTitle": "Legal Information – Investment Banking | Terms & Compliance",
+    "description": "Information about content use, permissions, factual concerns, and legal or rights-related requests.",
+    "content": [
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "policy-header"
+        },
+        "children": [
+          {
+            "tag": "h1",
+            "attrs": {},
+            "children": [
+              "Legal Information"
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              "This page summarizes legal and compliance matters relevant to Investment Banking's publishing activities, including reader usage of site content, submissions, permissions, and formal requests."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "policy-section"
+        },
+        "children": [
+          {
+            "tag": "h2",
+            "attrs": {},
+            "children": [
+              "Informational Use of Content"
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              "Investment Banking publishes explainers, case studies, and commentary for general information. The content is not professional advice tailored to a reader’s legal, financial, tax, medical, or other personal circumstances."
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              "Dated examples describe the records and events identified in the post. For a decision that depends on current law or personal circumstances, use current authoritative information and appropriate professional advice."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "policy-section"
+        },
+        "children": [
+          {
+            "tag": "h2",
+            "attrs": {},
+            "children": [
+              "Copyright, Quotation, and Reuse"
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              "Readers may link to Investment Banking articles and may quote brief excerpts with proper attribution, as permitted by applicable copyright law. Republishing entire articles, bulk reproduction, commercial reuse, systematic copying, or scraping content for republication requires explicit permission unless a separate licensing agreement or legal exception applies."
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              "For substantial reuse, translation, or syndication, contact the permissions address below."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "policy-section"
+        },
+        "children": [
+          {
+            "tag": "h2",
+            "attrs": {},
+            "children": [
+              "Complaints Regarding Accuracy, Rights, or Fairness"
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              "If you believe an Investment Banking article contains a material factual error, omits critical context, infringes upon legal rights, or raises a serious legal concern, please contact our blog promptly. Include the specific article URL, the exact material at issue, the basis for your concern, and supporting documentation where available."
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              "Use the corrections process for factual errors and the reply process for relevant responses. Copyright, privacy, and other rights concerns should identify the material and the basis of the request."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "policy-section"
+        },
+        "children": [
+          {
+            "tag": "h2",
+            "attrs": {},
+            "children": [
+              "What to Include in a Formal Request"
+            ]
+          },
+          {
+            "tag": "ul",
+            "attrs": {},
+            "children": [
+              {
+                "tag": "li",
+                "attrs": {},
+                "children": [
+                  "The URL or headline of the content in question."
+                ]
+              },
+              {
+                "tag": "li",
+                "attrs": {},
+                "children": [
+                  "A clear description of the statement, image, video, or other material you are challenging."
+                ]
+              },
+              {
+                "tag": "li",
+                "attrs": {},
+                "children": [
+                  "The legal or factual basis for your request, including supporting documents where relevant."
+                ]
+              },
+              {
+                "tag": "li",
+                "attrs": {},
+                "children": [
+                  "Your name, organization if applicable, and a reliable contact method for follow-up."
+                ]
+              },
+              {
+                "tag": "li",
+                "attrs": {},
+                "children": [
+                  "If you are acting on behalf of someone else, a brief statement of your authority to do so."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "policy-section"
+        },
+        "children": [
+          {
+            "tag": "h2",
+            "attrs": {},
+            "children": [
+              "Removal, Restriction, and Update Requests"
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              "Requests may concern a correction, clarification, update, removal, or restriction. Identify the requested action and explain why it is appropriate."
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              "The response should take account of the evidence, relevant rights, and the public interest. A correction or update may address an issue without removing the entire post."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "policy-section"
+        },
+        "children": [
+          {
+            "tag": "h2",
+            "attrs": {},
+            "children": [
+              "Links to Third‑Party Material"
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              "Investment Banking may link to third‑party websites, official records, social media platforms, public databases, and external documents for sourcing and reader context. These third‑party properties are governed by their own terms of service, privacy policies, and accuracy practices."
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              "A link to a third‑party source does not constitute an endorsement of every statement, product, or policy appearing on that external site."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "policy-section"
+        },
+        "children": [
+          {
+            "tag": "h2",
+            "attrs": {},
+            "children": [
+              "Formal Notices and Requests"
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              "For legal notices, permissions inquiries, rights complaints, or any formal request related to published content, please contact the blog directly so your request can be routed to the appropriate reviewer."
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              "The addresses below are the published contacts for legal, permissions, and editorial enquiries."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "policy-section"
+        },
+        "children": [
+          {
+            "tag": "h2",
+            "attrs": {},
+            "children": [
+              "Contact"
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              {
+                "tag": "strong",
+                "attrs": {},
+                "children": [
+                  "General Legal Contact:"
+                ]
+              },
+              {
+                "tag": "a",
+                "attrs": {
+                  "href": "mailto:legal@investment-banking.org"
+                },
+                "children": [
+                  "legal@investment-banking.org"
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              {
+                "tag": "strong",
+                "attrs": {},
+                "children": [
+                  "Corrections and Factual Concerns:"
+                ]
+              },
+              {
+                "tag": "a",
+                "attrs": {
+                  "href": "mailto:corrections@investment-banking.org"
+                },
+                "children": [
+                  "corrections@investment-banking.org"
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              {
+                "tag": "strong",
+                "attrs": {},
+                "children": [
+                  "Editorial Team:"
+                ]
+              },
+              {
+                "tag": "a",
+                "attrs": {
+                  "href": "mailto:editorial@investment-banking.org"
+                },
+                "children": [
+                  "editorial@investment-banking.org"
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              {
+                "tag": "strong",
+                "attrs": {},
+                "children": [
+                  "Related Policies:"
+                ]
+              },
+              {
+                "tag": "a",
+                "attrs": {
+                  "href": "/editorial-policy"
+                },
+                "children": [
+                  "Editorial Policy"
+                ]
+              },
+              " | ",
+              {
+                "tag": "a",
+                "attrs": {
+                  "href": "/corrections-policy"
+                },
+                "children": [
+                  "Corrections Policy"
+                ]
+              },
+              " | ",
+              {
+                "tag": "a",
+                "attrs": {
+                  "href": "/privacy-policy"
+                },
+                "children": [
+                  "Privacy Policy"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "update-date"
+        },
+        "children": [
+          " Last Updated: June 8, 2026 "
+        ]
+      }
+    ]
+  },
+  "our-team": {
+    "title": "Contributors",
+    "metaTitle": "Contributors | Investment Banking Blog",
+    "description": "Contributor credits and topic areas in the Investment Banking blog archive.",
+    "content": []
+  },
+  "ownership-and-funding": {
+    "title": "Ownership and Funding",
+    "metaTitle": "Ownership and Funding – Investment Banking Blog | Editorial Independence",
+    "description": "Standards for ownership, funding, and commercial disclosures, with a contact for information about the blog’s operator.",
+    "content": [
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "policy-header"
+        },
+        "children": [
+          {
+            "tag": "h1",
+            "attrs": {},
+            "children": [
+              "Ownership and Funding"
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              "This page describes the blog’s standards for commercial disclosure and editorial independence. It does not currently name a legal operator, owner, or funding source."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "policy-section"
+        },
+        "children": [
+          {
+            "tag": "h2",
+            "attrs": {},
+            "children": [
+              "What This Page Covers"
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              "For information about the operator, ownership, or financial support, contact ",
+              {
+                "tag": "a",
+                "attrs": {
+                  "href": "mailto:editorial@investment-banking.org"
+                },
+                "children": [
+                  "editorial@investment-banking.org"
+                ]
+              },
+              ". Confirmed ownership and material funding information should be published here."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "policy-section"
+        },
+        "children": [
+          {
+            "tag": "h2",
+            "attrs": {},
+            "children": [
+              "Editorial Control and Decision‑Making"
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              "Editorial decisions should remain with the people responsible for the post. A commercial arrangement must not buy a conclusion, prevent a supported criticism, or give a sponsor control over unrelated content."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "policy-section"
+        },
+        "children": [
+          {
+            "tag": "h2",
+            "attrs": {},
+            "children": [
+              "How Investment Banking May Be Funded"
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              "Possible publishing revenue includes advertising, sponsorship, licensing, and distribution arrangements. This list does not establish which arrangements the blog has. Any material relationship should be disclosed here and on affected posts."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "policy-section"
+        },
+        "children": [
+          {
+            "tag": "h2",
+            "attrs": {},
+            "children": [
+              "Conflicts of Interest and Recusals"
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              "Contributors should disclose relationships relevant to an assignment, including financial interests, outside work, and family ties. A conflict may require disclosure, reassignment, or declining the post."
+            ]
+          },
+          {
+            "tag": "ul",
+            "attrs": {},
+            "children": [
+              {
+                "tag": "li",
+                "attrs": {},
+                "children": [
+                  "Relevant personal or financial ties should be disclosed internally before publication."
+                ]
+              },
+              {
+                "tag": "li",
+                "attrs": {},
+                "children": [
+                  "Gifts, favors, or special access that would compromise independence should not be accepted."
+                ]
+              },
+              {
+                "tag": "li",
+                "attrs": {},
+                "children": [
+                  "Outside work, advocacy, or consulting that conflicts with blog independence should be disclosed and may require reassignment."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "policy-section"
+        },
+        "children": [
+          {
+            "tag": "h2",
+            "attrs": {},
+            "children": [
+              "Commercial Support Does Not Buy Coverage"
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              "Readers should be able to identify advertising, sponsored posts, and affiliate relationships where they appear. A general policy page cannot replace a disclosure on the affected content."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "policy-section"
+        },
+        "children": [
+          {
+            "tag": "h2",
+            "attrs": {},
+            "children": [
+              "Political, Governmental, and Advocacy Influence"
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              "Political or advocacy material supplied through a commercial relationship should be labeled accordingly. A relevant relationship between the blog and the subject of a post should be disclosed in plain language."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "policy-section"
+        },
+        "children": [
+          {
+            "tag": "h2",
+            "attrs": {},
+            "children": [
+              "Changes to Ownership or Material Support"
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              "This page should be updated when ownership, control, or material financial support changes. Readers can request clarification of a relationship they believe is missing."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "policy-section"
+        },
+        "children": [
+          {
+            "tag": "h2",
+            "attrs": {},
+            "children": [
+              "Contact"
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              "Readers with questions about ownership, funding, or editorial independence may reach the blog at ",
+              {
+                "tag": "a",
+                "attrs": {
+                  "href": "mailto:editorial@investment-banking.org"
+                },
+                "children": [
+                  "editorial@investment-banking.org"
+                ]
+              },
+              "."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "update-date"
+        },
+        "children": [
+          " Last Updated: June 8, 2026 "
+        ]
+      }
+    ]
+  },
+  "privacy-policy": {
+    "title": "Privacy Policy — Investment Banking",
+    "metaTitle": "Privacy Policy – Investment Banking Blog",
+    "description": "Information about email and newsletter submissions, FormSubmit, Google services, cookies, and privacy enquiries.",
+    "content": [
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "detail-content-text-section"
+        },
+        "children": [
+          {
+            "tag": "h1",
+            "attrs": {
+              "class": "detail-head"
+            },
+            "children": [
+              "Privacy Policy — Investment Banking"
+            ]
+          },
+          {
+            "tag": "hr",
+            "attrs": {},
+            "children": []
+          },
+          {
+            "tag": "p",
+            "attrs": {
+              "class": "privacy-lead"
+            },
+            "children": [
+              "This notice describes information readers may share when visiting the site, using its newsletter form, or contacting a published email address. It also identifies third-party services included on the site."
+            ]
+          },
+          {
+            "tag": "h2",
+            "attrs": {
+              "class": "privacy-section-title",
+              "id": "section-1"
+            },
+            "children": [
+              "Information We Collect"
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {
+              "class": "privacy-body"
+            },
+            "children": [
+              "Loading a webpage involves technical information such as your IP address, browser details, and the page requested. The site also includes a Google advertising tag, described below."
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {
+              "class": "privacy-body"
+            },
+            "children": [
+              "An email or form submission includes the information you provide, such as your email address and message. Send only the information needed for the request."
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {
+              "class": "privacy-body"
+            },
+            "children": [
+              "The newsletter form sends the submitted email address through FormSubmit to the site’s designated inbox. See ",
+              {
+                "tag": "a",
+                "attrs": {
+                  "href": "https://formsubmit.co/privacy.pdf",
+                  "rel": "noopener noreferrer"
+                },
+                "children": [
+                  "FormSubmit’s privacy terms"
+                ]
+              },
+              " for its handling of form data."
+            ]
+          },
+          {
+            "tag": "h2",
+            "attrs": {
+              "class": "privacy-section-title",
+              "id": "section-2"
+            },
+            "children": [
+              "Messages and Service Providers"
+            ]
+          },
+          {
+            "tag": "ul",
+            "attrs": {
+              "class": "privacy-list"
+            },
+            "children": [
+              {
+                "tag": "li",
+                "attrs": {},
+                "children": [
+                  "Technical information supports delivery of the webpage."
+                ]
+              },
+              {
+                "tag": "li",
+                "attrs": {},
+                "children": [
+                  "Newsletter submissions go through the form service."
+                ]
+              },
+              {
+                "tag": "li",
+                "attrs": {},
+                "children": [
+                  "Messages provide context for enquiries and correction requests."
+                ]
+              },
+              {
+                "tag": "li",
+                "attrs": {},
+                "children": [
+                  "The services involved apply their own privacy terms."
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {
+              "class": "privacy-body"
+            },
+            "children": [
+              "Third-party services may process information for their own service functions. Their policies and settings also affect how information is used."
+            ]
+          },
+          {
+            "tag": "h2",
+            "attrs": {
+              "class": "privacy-section-title",
+              "id": "section-3"
+            },
+            "children": [
+              "Cookies and Google Services"
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {
+              "class": "privacy-body"
+            },
+            "children": [
+              "The site includes a Google tag associated with Google Ads. Google explains that its services can receive page URLs and IP addresses, use cookies, and process information for advertising measurement and other purposes depending on settings."
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {
+              "class": "privacy-body"
+            },
+            "children": [
+              "Read ",
+              {
+                "tag": "a",
+                "attrs": {
+                  "href": "https://policies.google.com/technologies/partner-sites",
+                  "rel": "noopener noreferrer"
+                },
+                "children": [
+                  "how Google uses information from partner sites"
+                ]
+              },
+              ". You can review Google’s advertising controls and use browser settings to manage cookies. Cookie controls alone do not prevent every exchange of technical information."
+            ]
+          },
+          {
+            "tag": "h2",
+            "attrs": {
+              "class": "privacy-section-title",
+              "id": "section-4"
+            },
+            "children": [
+              "Your Rights and Choices"
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {
+              "class": "privacy-body"
+            },
+            "children": [
+              "For questions about information you submitted, or a request concerning access, correction, or deletion, contact ",
+              {
+                "tag": "a",
+                "attrs": {
+                  "href": "mailto:editorial@investment-banking.org"
+                },
+                "children": [
+                  "editorial@investment-banking.org"
+                ]
+              },
+              ". Explain the request without sending unnecessary identity documents or account details."
+            ]
+          },
+          {
+            "tag": "h2",
+            "attrs": {
+              "class": "privacy-section-title",
+              "id": "section-5"
+            },
+            "children": [
+              "Information to Keep Private"
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {
+              "class": "privacy-body"
+            },
+            "children": [
+              "Ordinary email and the newsletter form should not be used for passwords, bank details, or confidential records. A request can usually begin with a link and a brief description."
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {
+              "class": "privacy-body"
+            },
+            "children": [
+              "For questions about retention, the site operator, or a service’s handling of your information, use the contact above. Third-party sites linked in posts apply their own privacy practices."
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              {
+                "tag": "span",
+                "attrs": {
+                  "class": "privacy-last-updated"
+                },
+                "children": [
+                  "Last Updated: September 16, 2026"
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "hr",
+            "attrs": {},
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "right-of-reply-policy": {
+    "title": "Right of Reply Policy",
+    "metaTitle": "Right of Reply Policy – Investment Banking Blog | Fair Opportunity to Respond",
+    "description": "How people and organizations discussed in the blog can submit a response, correction, or additional context.",
+    "content": [
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "policy-header"
+        },
+        "children": [
+          {
+            "tag": "h1",
+            "attrs": {},
+            "children": [
+              "Right of Reply Policy"
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              "People and organizations discussed in a post can submit a response, correction, or missing context. The revised archive is based on published sources and does not imply that the blog contacted every subject before publication."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "policy-section"
+        },
+        "children": [
+          {
+            "tag": "h2",
+            "attrs": {},
+            "children": [
+              "When We Seek a Response"
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              "For a new post involving substantial criticism or allegations, seek a relevant response where practical. Assess the reply against the available evidence and accurately describe any published response already in the record."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "policy-section"
+        },
+        "children": [
+          {
+            "tag": "h2",
+            "attrs": {},
+            "children": [
+              "Standards for Outreach"
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              "An outreach request should identify the claim, the questions to be answered, and a reasonable deadline. Keep a record of the request and response. If a post has no verified reply, do not imply that the subject declined to comment."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "policy-section"
+        },
+        "children": [
+          {
+            "tag": "h2",
+            "attrs": {},
+            "children": [
+              "What to Submit If You Seek a Reply or Correction"
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              "Include the post URL, the specific statement you dispute, your explanation, supporting documents, and a reliable contact method. State whether you are responding personally or on behalf of someone else."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "policy-section"
+        },
+        "children": [
+          {
+            "tag": "h2",
+            "attrs": {},
+            "children": [
+              "Post‑Publication Responses"
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              "A response may lead to a correction, clarification, update, or a summary of the disagreement. Review the evidence before deciding which change, if any, is warranted."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "policy-section"
+        },
+        "children": [
+          {
+            "tag": "h2",
+            "attrs": {},
+            "children": [
+              "What This Policy Does Not Guarantee"
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              "A request does not guarantee publication of a full statement, removal of supported content, or advance approval of a post. Relevant factual evidence should be considered through the editorial and corrections process."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "policy-section"
+        },
+        "children": [
+          {
+            "tag": "h2",
+            "attrs": {},
+            "children": [
+              "Urgent Matters and Legal Sensitivity"
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              "For a legal or privacy concern, identify the exact material and supporting basis. Avoid sending unnecessary personal information or confidential records through ordinary email. Use the legal contact for formal notices."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "policy-section"
+        },
+        "children": [
+          {
+            "tag": "h2",
+            "attrs": {},
+            "children": [
+              "Contact"
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              "For right of reply requests or corrections, please contact the editorial team at:"
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              {
+                "tag": "strong",
+                "attrs": {},
+                "children": [
+                  "Email:"
+                ]
+              },
+              {
+                "tag": "a",
+                "attrs": {
+                  "href": "mailto:reply@investment-banking.org"
+                },
+                "children": [
+                  "reply@investment-banking.org"
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              {
+                "tag": "strong",
+                "attrs": {},
+                "children": [
+                  "Related Policies:"
+                ]
+              },
+              {
+                "tag": "a",
+                "attrs": {
+                  "href": "/editorial-policy"
+                },
+                "children": [
+                  "Editorial Policy"
+                ]
+              },
+              " | ",
+              {
+                "tag": "a",
+                "attrs": {
+                  "href": "/corrections-policy"
+                },
+                "children": [
+                  "Corrections Policy"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "update-date"
+        },
+        "children": [
+          " Last Updated: June 8, 2026 "
+        ]
+      }
+    ]
+  },
+  "source-methodology": {
+    "title": "Source Methodology",
+    "metaTitle": "Source Methodology – Investment Banking Blog | Transparency in Reporting",
+    "description": "How to read the blog’s sources, attribution, dates, and distinctions between records, claims, and interpretation.",
+    "content": [
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "policy-header"
+        },
+        "children": [
+          {
+            "tag": "h1",
+            "attrs": {},
+            "children": [
+              "Source Methodology"
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              "Source links help readers distinguish documented facts, attributed claims, and the blog’s interpretation. This page explains how to read those distinctions."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "policy-section"
+        },
+        "children": [
+          {
+            "tag": "h2",
+            "attrs": {},
+            "children": [
+              "How Posts Are Researched"
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              "Posts draw on official records, company filings, research, public datasets, and identified published reporting. The revised archive is based on desk research with AI-assisted editing; it does not claim original interviews or field reporting."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "policy-section"
+        },
+        "children": [
+          {
+            "tag": "h2",
+            "attrs": {},
+            "children": [
+              "Source Hierarchy and Verification"
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              "Start with the document closest to the claim: a filing for financial results, an order for a legal action, or a dataset for a statistical measure. Official and company statements should still be attributed and assessed for their purpose, scope, and limitations."
+            ]
+          },
+          {
+            "tag": "ul",
+            "attrs": {},
+            "children": [
+              {
+                "tag": "li",
+                "attrs": {},
+                "children": [
+                  "Prefer the primary record when it is available."
+                ]
+              },
+              {
+                "tag": "li",
+                "attrs": {},
+                "children": [
+                  "Attribute facts obtained from another publisher to that publisher."
+                ]
+              },
+              {
+                "tag": "li",
+                "attrs": {},
+                "children": [
+                  "Check dates, figures, and legal status against the identified record."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "policy-section"
+        },
+        "children": [
+          {
+            "tag": "h2",
+            "attrs": {},
+            "children": [
+              "Attribution to Published Reporting"
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              "When another publication supplies a fact or relies on unnamed sources, attribute the account to that publication. Readers should not be left with the impression that the blog interviewed those sources."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "policy-section"
+        },
+        "children": [
+          {
+            "tag": "h2",
+            "attrs": {},
+            "children": [
+              "Documents, Media, and Data"
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              "Read dates, definitions, reporting periods, and units before comparing documents or data. Distinguish a claim submitted to an institution from a conclusion independently reached by that institution."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "policy-section"
+        },
+        "children": [
+          {
+            "tag": "h2",
+            "attrs": {},
+            "children": [
+              "Source Notes, Attribution, and Links"
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              "Revised posts include numbered references and a source list. Links should lead to the record or report supporting the claim. A source may establish only part of a paragraph, so attribution and qualifications belong in the text as well as in the source list."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "policy-section"
+        },
+        "children": [
+          {
+            "tag": "h2",
+            "attrs": {},
+            "children": [
+              "How We Treat Uncertainty and Change"
+            ]
+          },
+          {
+            "tag": "ul",
+            "attrs": {},
+            "children": [
+              {
+                "tag": "li",
+                "attrs": {},
+                "children": [
+                  "We do not convert uncertainty into certainty for headline effect."
+                ]
+              },
+              {
+                "tag": "li",
+                "attrs": {},
+                "children": [
+                  "We clearly distinguish analysis from assertion."
+                ]
+              },
+              {
+                "tag": "li",
+                "attrs": {},
+                "children": [
+                  "We update wording when better sourcing becomes available or when a public record materially changes."
+                ]
+              },
+              {
+                "tag": "li",
+                "attrs": {},
+                "children": [
+                  "If a claim is unresolved, contested, or incomplete, the article states that clearly rather than implying a settled conclusion."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "policy-section"
+        },
+        "children": [
+          {
+            "tag": "h2",
+            "attrs": {},
+            "children": [
+              "The Limits of a Source Link"
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              "A citation helps readers inspect evidence; it does not certify every statement on the linked page. If a record does not establish a claim, narrow the claim, explain the uncertainty, or remove it. A historical post’s update date should not make an old event appear new."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "update-date"
+        },
+        "children": [
+          " Last Updated: June 8, 2026 "
+        ]
+      }
+    ]
+  },
+  "terms-and-conditions": {
+    "title": "Terms & Conditions",
+    "metaTitle": "Terms & Conditions – Investment Banking Blog",
+    "description": "Terms for reading and sharing Investment Banking blog content, using external links, and submitting material.",
+    "content": [
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "policy-header"
+        },
+        "children": [
+          {
+            "tag": "h1",
+            "attrs": {},
+            "children": [
+              "Terms & Conditions"
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              "By accessing Investment Banking, you agree to the following terms. We aim to keep these straightforward and transparent so readers understand how our editorial content may be used."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "policy-section"
+        },
+        "children": [
+          {
+            "tag": "h2",
+            "attrs": {},
+            "children": [
+              "Using Our Content"
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              "All original content published by Investment Banking is protected by copyright. Readers may share links and quote brief excerpts with proper attribution. Republishing full articles without permission is not permitted. For permissions or republication inquiries, contact: ",
+              {
+                "tag": "a",
+                "attrs": {
+                  "href": "mailto:editorial@investment-banking.org"
+                },
+                "children": [
+                  "editorial@investment-banking.org"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "policy-section"
+        },
+        "children": [
+          {
+            "tag": "h2",
+            "attrs": {},
+            "children": [
+              "Accuracy and Updates"
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              "Posts identify their publication and update dates. Historical examples may not reflect later events. Material factual corrections should be explained on the affected page under the Corrections Policy."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "policy-section"
+        },
+        "children": [
+          {
+            "tag": "h2",
+            "attrs": {},
+            "children": [
+              "Opinion and Analysis"
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              "Opinion and analysis articles are clearly labeled and reflect the views of the author, not necessarily those of Investment Banking as a whole."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "policy-section"
+        },
+        "children": [
+          {
+            "tag": "h2",
+            "attrs": {},
+            "children": [
+              "External Links"
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              "Posts link to external records and websites for context. Those sites have their own content, terms, and privacy practices."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "policy-section"
+        },
+        "children": [
+          {
+            "tag": "h2",
+            "attrs": {},
+            "children": [
+              "Limitation of Responsibility"
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              "Investment Banking provides editorial content for general informational purposes. Content should not be considered legal, medical, or financial advice."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "policy-section"
+        },
+        "children": [
+          {
+            "tag": "h2",
+            "attrs": {},
+            "children": [
+              "Reader Contributions"
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              "If reader comments or submissions are enabled, participants are expected to engage respectfully. Content that violates laws or community standards may be removed."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "policy-section"
+        },
+        "children": [
+          {
+            "tag": "h2",
+            "attrs": {},
+            "children": [
+              "Updates to These Terms"
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              "These Terms may be updated periodically. Changes will be posted on this page with a revised effective date."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "policy-section"
+        },
+        "children": [
+          {
+            "tag": "h2",
+            "attrs": {},
+            "children": [
+              "Questions?"
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              "If you have questions about these Terms, contact us: ",
+              {
+                "tag": "a",
+                "attrs": {
+                  "href": "mailto:editorial@investment-banking.org"
+                },
+                "children": [
+                  "editorial@investment-banking.org"
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              "Investment Banking encourages responsible sharing, proper attribution, and informed readership."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "update-date"
+        },
+        "children": [
+          " Last Updated: June 8, 2026 "
+        ]
+      }
+    ]
+  },
+  "advertising-and-sponsored-content-policy": {
+    "title": "Advertising and Sponsored Content Policy",
+    "metaTitle": "Advertising and Sponsored Content Policy – Investment Banking Blog | Transparency in Commercial Partnerships",
+    "description": "Standards for identifying advertising, sponsored posts, affiliate links, and other commercial relationships.",
+    "content": [
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "policy-header"
+        },
+        "children": [
+          {
+            "tag": "h1",
+            "attrs": {},
+            "children": [
+              "Advertising and Sponsored Content Policy"
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              "Commercial material should be clearly identified wherever readers encounter it. This policy sets standards for advertising, sponsorship, affiliate links, and paid partnerships."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "policy-section"
+        },
+        "children": [
+          {
+            "tag": "h2",
+            "attrs": {},
+            "children": [
+              "Editorial Separation"
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              "A commercial relationship must not control a post’s conclusions, sources, or publication decisions. Readers should be able to identify paid material without having to infer its purpose from the surrounding page."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "policy-section"
+        },
+        "children": [
+          {
+            "tag": "h2",
+            "attrs": {},
+            "children": [
+              "How Paid Material Is Labeled"
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              "Disclose payment, sponsorship, or another material commercial relationship close to the content and early enough for readers to see it before relying on the message."
+            ]
+          },
+          {
+            "tag": "ul",
+            "attrs": {},
+            "children": [
+              {
+                "tag": "li",
+                "attrs": {},
+                "children": [
+                  "Clear labels may include: Advertisement, Ad, Sponsored, Paid Content, or Sponsored Advertising Content."
+                ]
+              },
+              {
+                "tag": "li",
+                "attrs": {},
+                "children": [
+                  "The disclosure should appear close enough to the content that a reader sees it before or as they engage with the material, not only after scrolling deep into the page."
+                ]
+              },
+              {
+                "tag": "li",
+                "attrs": {},
+                "children": [
+                  "Visual design, bylines, and page layout should not be used to make paid material look indistinguishable from independently reported editorial content."
+                ]
+              },
+              {
+                "tag": "li",
+                "attrs": {},
+                "children": [
+                  "Vague labels that could confuse readers should be avoided if they do not make the commercial nature of the material obvious."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "policy-section"
+        },
+        "children": [
+          {
+            "tag": "h2",
+            "attrs": {},
+            "children": [
+              "Native, Branded, and Partner Content"
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              "Sponsored features and branded or partner-funded posts should carry a clear disclosure on desktop and mobile. Identify the sponsor and the nature of the arrangement. A contributor credit should accurately describe who produced the work."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "policy-section"
+        },
+        "children": [
+          {
+            "tag": "h2",
+            "attrs": {},
+            "children": [
+              "Affiliate Links, Commerce, and Material Connections"
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              "When a link or recommendation can generate compensation, explain that relationship near the relevant content. Readers should understand how a click, referral, or purchase could benefit the publisher."
+            ]
+          },
+          {
+            "tag": "ul",
+            "attrs": {},
+            "children": [
+              {
+                "tag": "li",
+                "attrs": {},
+                "children": [
+                  "Affiliate or referral disclosures should be clear and conspicuous."
+                ]
+              },
+              {
+                "tag": "li",
+                "attrs": {},
+                "children": [
+                  "A material connection should not be hidden only in a footer, general policy page, or terms page if it affects a specific piece of content."
+                ]
+              },
+              {
+                "tag": "li",
+                "attrs": {},
+                "children": [
+                  "Editorial recommendations should not be conditioned on compensation alone."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "policy-section"
+        },
+        "children": [
+          {
+            "tag": "h2",
+            "attrs": {},
+            "children": [
+              "Newsletters, Video, Audio, and Social Distribution"
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              "Disclosures should travel with the content in newsletters, video, audio, and social posts. Readers encountering a paid message outside the website need the same clarity about its commercial purpose."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "policy-section"
+        },
+        "children": [
+          {
+            "tag": "h2",
+            "attrs": {},
+            "children": [
+              "Political and Issue Advertising"
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              "Political or issue advertising should be labeled as advertising. Publication of an advertisement does not establish the blog’s endorsement of its claims or position."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "policy-section"
+        },
+        "children": [
+          {
+            "tag": "h2",
+            "attrs": {},
+            "children": [
+              "Practices Investment Banking Should Not Use"
+            ]
+          },
+          {
+            "tag": "ul",
+            "attrs": {},
+            "children": [
+              {
+                "tag": "li",
+                "attrs": {},
+                "children": [
+                  "Selling editorial conclusions or offering favorable coverage in exchange for payment or access."
+                ]
+              },
+              {
+                "tag": "li",
+                "attrs": {},
+                "children": [
+                  "Using a blog byline, headline style, or article layout to disguise paid material where the commercial nature is not obvious."
+                ]
+              },
+              {
+                "tag": "li",
+                "attrs": {},
+                "children": [
+                  "Allowing an advertiser, sponsor, or affiliate partner to control unrelated reporting."
+                ]
+              },
+              {
+                "tag": "li",
+                "attrs": {},
+                "children": [
+                  "Hiding a material connection in a place a normal reader would not reasonably notice."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "policy-section"
+        },
+        "children": [
+          {
+            "tag": "h2",
+            "attrs": {},
+            "children": [
+              "Questions, Complaints, and Review Requests"
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              "Report an unclear or missing commercial disclosure with the page URL and the material at issue. A substantiated problem should be addressed on the affected content."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "policy-section"
+        },
+        "children": [
+          {
+            "tag": "h2",
+            "attrs": {},
+            "children": [
+              "Contact"
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              "For inquiries regarding advertising, sponsored content, or partnership opportunities, please contact:"
+            ]
+          },
+          {
+            "tag": "p",
+            "attrs": {},
+            "children": [
+              {
+                "tag": "strong",
+                "attrs": {},
+                "children": [
+                  "Email:"
+                ]
+              },
+              {
+                "tag": "a",
+                "attrs": {
+                  "href": "mailto:advertising@investment-banking.org"
+                },
+                "children": [
+                  "advertising@investment-banking.org"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "attrs": {
+          "class": "update-date"
+        },
+        "children": [
+          " Last Updated: June 8, 2026 "
+        ]
+      }
+    ]
+  }
+}
