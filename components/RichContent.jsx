@@ -51,15 +51,15 @@ export default function RichContent({ nodes, variant = "default" }) {
     const takeawaysItem = variant === "banco" && Tag === "li" && parentClass.includes("article-key-takeaways") ? "relative pl-5 font-sans text-[15px] leading-[1.55] text-[#2c3742] before:absolute before:left-0 before:top-[.62em] before:h-[7px] before:w-[7px] before:rotate-45 before:bg-[#c59a43]" : "";
     const policyHeaderText = variant === "policy" && (parentClass.includes("policy-header") || parentClass.includes("contact-hero")) && Tag === "p" ? "mx-auto max-w-[700px] font-sans text-[18px] leading-[1.5] text-[#555]" : "";
     const className = [closingQuote || takeawaysHeading || takeawaysList || takeawaysItem || policyHeaderText || theme[Tag] || base[Tag], custom(attrs.class || "", variant)].filter(Boolean).join(" ");
-    const props = { key, className };
+    const props = { className };
     if (attrs.id) props.id = attrs.id;
     if (attrs.title) props.title = attrs.title;
     if (attrs.href) props.href = attrs.href;
     if (attrs.src) { props.src = attrs.src; props.alt = attrs.alt || ""; props.loading = "lazy"; }
     if (attrs.datetime) props.dateTime = attrs.datetime;
     if (attrs.target === "_blank") { props.target = "_blank"; props.rel = "noopener noreferrer"; }
-    if (Tag === "img" || Tag === "hr" || Tag === "br") return <Tag {...props} />;
-    return <Tag {...props}>{(node.children || []).map((child, index, all) => render(child, index, attrs.class || "", index === all.length - 1))}</Tag>;
+    if (Tag === "img" || Tag === "hr" || Tag === "br") return <Tag key={key} {...props} />;
+    return <Tag key={key} {...props}>{(node.children || []).map((child, index, all) => render(child, index, attrs.class || "", index === all.length - 1))}</Tag>;
   }
   return <>{(nodes || []).map((node, index) => render(node, index))}</>;
 }
