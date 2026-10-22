@@ -33,7 +33,6 @@ export default function OpinionFeatureArticle({ article, author }) {
           <span aria-hidden="true" className="text-white/30">/</span>
           <Link href="/opinion" className="font-bold text-[#c59a43] hover:text-white">Opinion</Link>
         </nav>
-        <span className="text-white/45">Photo illustration</span>
       </div>
       <figure className="m-0">
         <img src={imagePath(article.image)} alt={article.imageAlt || ""} width="1600" height="800" className="mx-auto block h-auto w-full max-w-[1280px] max-[640px]:aspect-[4/3] max-[640px]:object-cover" />
@@ -50,7 +49,7 @@ export default function OpinionFeatureArticle({ article, author }) {
           <img src={author?.image} alt="" className="h-11 w-11 rounded-full object-cover" />
           <div className="font-sans">
             <p className="text-[14px]">By <Link href={`/authors/${author?.slug || article.authorSlug}`} className="font-bold text-[#0b0d10] hover:underline">{author?.name || article.authorName}</Link></p>
-            <p className="mt-[3px] flex flex-wrap items-center gap-x-3 text-[12px] text-[#65717c]"><time dateTime={article.publishedAt}>{formattedDate(article)}</time><span aria-hidden="true" className="h-3 w-px bg-[#c4cbd1]" /><span>{minutes} min read</span></p>
+            <p className="mt-[3px] flex flex-wrap items-center gap-x-3 text-[12px] text-[#65717c]"><time dateTime={article.publishedAt}>{formattedDate(article)}</time><span aria-hidden="true" className="h-3 w-px bg-[#c4cbd1]" /></p>
           </div>
         </div>
       </header>
