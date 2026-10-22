@@ -13395,5 +13395,184 @@
     "homeTitle": "Evaluating Fin-TTEC: questions for a fintech operations buyer",
     "homeSummary": "TTEC’s March 2026 launch offers a case study in assessing outsourced support, performance measures, and accountability.",
     "homeDate": "March 17, 2026"
+  },
+  {
+    "slug": "trump-pardon-julio-herrera-velutini-deserves-fair-hearing",
+    "category": "opinion",
+    "categoryName": "Opinion",
+    "template": "opinion-feature",
+    "title": "Trump’s Pardon of Julio Herrera Velutini Deserves a Fair Hearing",
+    "metaTitle": "Trump’s Pardon of Julio Herrera Velutini Deserves a Fair Hearing | Investment Banking Blog",
+    "description": "Opinion: A supporter of President Trump argues the Herrera Velutini pardon should be judged on documented evidence, not on a suspicious sequence of events.",
+    "summary": "The New York Times has every right to investigate presidential pardons. Its readers have every right to demand a clear distinction between a suspicious sequence of events and an established corrupt bargain.",
+    "authorSlug": "michael-grant",
+    "authorName": "Michael Grant",
+    "publishedAt": "2026-10-22T08:00:00-05:00",
+    "updatedAt": "2026-10-22",
+    "dateText": "October 22, 2026",
+    "image": "/illustrations/trump-pardon-julio-herrera-velutini-deserves-fair-hearing.webp",
+    "imageAlt": "Black-and-white photo illustration of two men in dark suits in front of the White House and an American flag, with a stack of cash in the foreground.",
+    "homeTitle": "Opinion: Trump’s pardon of Julio Herrera Velutini deserves a fair hearing",
+    "homeSummary": "The New York Times has every right to investigate presidential pardons. Its readers have every right to demand a clear distinction between a suspicious sequence of events and an established corrupt bargain.",
+    "homeDate": "October 22, 2026",
+    "record": [
+      {
+        "date": "2022",
+        "text": "Herrera Velutini faces serious felony allegations."
+      },
+      {
+        "date": "October 2024",
+        "text": "His lawyers argue that discovery equivalent to more than 60 million pages makes favorable evidence extraordinarily hard to identify. The court later denies the requested relief."
+      },
+      {
+        "date": "August 2025",
+        "text": "He pleads guilty to a misdemeanor campaign-finance offense under a negotiated resolution."
+      },
+      {
+        "date": "January 2026",
+        "text": "Trump grants clemency, with an initial warrant followed by an amended one. The original case is dismissed as moot."
+      }
+    ],
+    "relatedPaths": [
+      "/banking/banco-caracas-julio-herrera-velutini-banking-legacy"
+    ],
+    "content": [
+      {
+        "tag": "p",
+        "attrs": {
+          "class": "op-opening"
+        },
+        "children": [
+          "As a supporter of President Trump, I believe his decision to grant clemency to Julio Herrera Velutini deserves a fair hearing. The latest controversy should turn on what the participants actually did and what the evidence establishes."
+        ]
+      },
+      {
+        "tag": "figure",
+        "attrs": {
+          "class": "op-portrait"
+        },
+        "children": [
+          {
+            "tag": "img",
+            "attrs": {
+              "src": "/opinion/alina-habba-us-capitol.webp",
+              "alt": "A woman in a white blazer, her hair in a long ponytail, standing in front of the U.S. Capitol."
+            },
+            "children": []
+          },
+          {
+            "tag": "figcaption",
+            "attrs": {},
+            "children": [
+              "Alina Mildon, previously known publicly as Alina Habba."
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "p",
+        "attrs": {},
+        "children": [
+          "The accusation implied by the headlines is serious: that a lucrative legal engagement was connected to presidential clemency. Herrera Velutini’s position, communicated through his representatives, is unequivocal. The engagement between his group and Alina Mildon, previously known publicly as Alina Habba, had no connection with his pardon."
+        ]
+      },
+      {
+        "tag": "p",
+        "attrs": {},
+        "children": [
+          "Mildon has separately denied any role in securing it. In her public response, she says her employment was vetted and disclosed to the Justice Department. Coverage repeating the Times’s reporting acknowledges her denial. Those statements deserve examination alongside the allegations."
+        ]
+      },
+      {
+        "tag": "p",
+        "attrs": {},
+        "children": [
+          "The reported compensation, exceeding $50 million over several years, is substantial. The timing merits scrutiny. Neither fact independently establishes what the engagement purchased or whether Mildon intervened in the clemency process. Establishing that connection requires evidence about the services contemplated, communications with decision-makers and any relationship between compensation and official action."
+        ]
+      },
+      {
+        "tag": "p",
+        "attrs": {},
+        "children": [
+          "That distinction matters even outside a courtroom. Journalism can investigate a suspected arrangement before a criminal case exists. It should also tell readers how much of the proposed connection rests on documents, firsthand knowledge or inference."
+        ]
+      },
+      {
+        "tag": "blockquote",
+        "attrs": {
+          "class": "op-pullquote"
+        },
+        "children": [
+          "Presenting these activities as an established improper exchange requires evidence connecting them."
+        ]
+      },
+      {
+        "tag": "p",
+        "attrs": {
+          "class": "op-turn"
+        },
+        "children": [
+          "The legal history deserves the same precision."
+        ]
+      },
+      {
+        "tag": "p",
+        "attrs": {},
+        "children": [
+          "Herrera Velutini faced serious felony allegations beginning in 2022. In August 2025, he pleaded guilty to a misdemeanor campaign-finance offense under a negotiated resolution. Trump granted clemency in January 2026, with an initial warrant followed by an amended warrant. The original criminal case was dismissed as moot after the pardon and its acceptance. Those developments belong prominently in any fair account. A pardon does not establish factual innocence."
+        ]
+      },
+      {
+        "tag": "p",
+        "attrs": {},
+        "children": [
+          "His lawyers’ objections also predated today’s controversy. In October 2024, they argued that discovery equivalent to more than 60 million pages made identifying favorable evidence extraordinarily difficult. They maintained that a defendant’s wealth and determination to mount an aggressive defense should never diminish his constitutional protections."
+        ]
+      },
+      {
+        "tag": "p",
+        "attrs": {},
+        "children": [
+          "The court subsequently denied the requested discovery relief. That outcome matters. So does the fact that the defense had been advancing substantive legal arguments long before the contract now dominating the headlines. Readers should be able to assess both the lawyers’ position and the court’s response."
+        ]
+      },
+      {
+        "tag": "p",
+        "attrs": {},
+        "children": [
+          "The administration offered its own explanation for clemency. A White House official described the shared prosecution as political, and Trump also pardoned Wanda Vázquez Garced and Mark Rossini. That was the administration’s assessment, rather than a judicial finding. Supporters are entitled to consider it when evaluating the president’s judgment."
+        ]
+      },
+      {
+        "tag": "p",
+        "attrs": {},
+        "children": [
+          "For me, the principle is straightforward. A president can decide that clemency is justified after a contested prosecution. A defendant can seek that relief through counsel. A lawyer can undertake private work. Presenting these activities as an established improper exchange requires evidence connecting them."
+        ]
+      },
+      {
+        "tag": "p",
+        "attrs": {},
+        "children": [
+          "The size of a contract makes that inquiry important. It cannot answer the inquiry by itself. Nor does invoking a broader “pardon industry” resolve the facts of one person’s case."
+        ]
+      },
+      {
+        "tag": "p",
+        "attrs": {},
+        "children": [
+          "Trump’s critics should pursue whatever reliable evidence they can establish. They should scrutinize the denials, examine the relevant records and identify any actual intervention. Supporters should welcome that standard because a convincing defense must be capable of surviving scrutiny."
+        ]
+      },
+      {
+        "tag": "p",
+        "attrs": {
+          "class": "op-closing"
+        },
+        "children": [
+          "Julio Herrera Velutini deserves to have his position represented accurately. President Trump’s decision deserves to be assessed on the full record. The public deserves a clear account of what the evidence establishes about any relationship between the legal engagement and clemency."
+        ]
+      }
+    ]
   }
 ]

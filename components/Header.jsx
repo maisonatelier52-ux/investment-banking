@@ -5,7 +5,7 @@ import Link from "next/link";
 import articles from "@/data/articles.json";
 
 const names = { us: "U.S", markets: "Markets", business: "Business", banking: "Banking", investigations: "Investigations", esg: "ESG", fintech: "FinTech", opinion: "Opinion" };
-const categories = [...new Set(articles.map((article) => article.category)), "opinion"];
+const categories = [...new Set([...articles.map((article) => article.category), "opinion"])];
 const tickerStories = [
   articles.find((article) => article.slug === "britannia-strengthens-board-lord-stanley-fink-chairman"),
   articles.find((article) => article.slug === "todd-blanche-rescinds-trump-anti-weaponization-fund-ag-nomination"),
