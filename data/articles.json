@@ -13480,7 +13480,18 @@
         "tag": "p",
         "attrs": {},
         "children": [
-          "Mildon has separately denied any role in securing it. In her public response, she says her employment was vetted and disclosed to the Justice Department. Coverage repeating the Times’s reporting acknowledges her denial. Those statements deserve examination alongside the allegations."
+          "Mildon has separately denied any role in securing it. In her ",
+          {
+            "tag": "a",
+            "attrs": {
+              "href": "https://x.com/alinahabba/status/2112692463127114198?s=12",
+              "target": "_blank"
+            },
+            "children": [
+              "public response"
+            ]
+          },
+          ", she says her employment was vetted and disclosed to the Justice Department. Coverage repeating the Times’s reporting acknowledges her denial. Those statements deserve examination alongside the allegations."
         ]
       },
       {
@@ -13519,7 +13530,18 @@
         "tag": "p",
         "attrs": {},
         "children": [
-          "Herrera Velutini faced serious felony allegations beginning in 2022. In August 2025, he pleaded guilty to a misdemeanor campaign-finance offense under a negotiated resolution. Trump granted clemency in January 2026, with an initial warrant followed by an amended warrant. The original criminal case was dismissed as moot after the pardon and its acceptance. Those developments belong prominently in any fair account. A pardon does not establish factual innocence."
+          "Herrera Velutini faced serious felony allegations beginning in 2022. In August 2025, he pleaded guilty to a misdemeanor campaign-finance offense under a negotiated resolution. Trump granted clemency in January 2026, with an initial warrant followed by an amended warrant. The original criminal case was ",
+          {
+            "tag": "a",
+            "attrs": {
+              "href": "https://mma.prnewswire.com/media/2872362/Judge_document.pdf",
+              "target": "_blank"
+            },
+            "children": [
+              "dismissed as moot"
+            ]
+          },
+          " after the pardon and its acceptance. Those developments belong prominently in any fair account. A pardon does not establish factual innocence."
         ]
       },
       {
@@ -13571,6 +13593,46 @@
         },
         "children": [
           "Julio Herrera Velutini deserves to have his position represented accurately. President Trump’s decision deserves to be assessed on the full record. The public deserves a clear account of what the evidence establishes about any relationship between the legal engagement and clemency."
+        ]
+      },
+      {
+        "tag": "figure",
+        "attrs": {
+          "class": "op-embed"
+        },
+        "children": [
+          {
+            "tag": "img",
+            "attrs": {
+              "src": "/opinion/alina-mildon-x-post-response.webp",
+              "alt": "Screenshot of a post on X by Alina Mildon, @AlinaHabba, saying she has returned to practicing law, that any suggestion her employment was tied to securing a pardon is false and defamatory, and that the reporting is an October surprise."
+            },
+            "children": []
+          },
+          {
+            "tag": "figcaption",
+            "attrs": {},
+            "children": [
+              {
+                "tag": "strong",
+                "attrs": {},
+                "children": [
+                  "Alina Mildon’s public response on X."
+                ]
+              },
+              {
+                "tag": "a",
+                "attrs": {
+                  "href": "https://x.com/alinahabba/status/2112692463127114198?s=12",
+                  "target": "_blank"
+                },
+                "children": [
+                  "View the original post"
+                ]
+              },
+              "."
+            ]
+          }
         ]
       }
     ]
